@@ -122,12 +122,77 @@ entities["nhat_ky_he_thong"] = [
     {"field": "chi_tiet", "key": None, "type": "TEXT", "new": True},
 ]
 
+# ============ Uu tien TRUNG BINH ============
+
+# 5) So hoa du lieu (muc N) - ky so hoa theo tung dot, gan voi tep dinh kem
+entities["ky_so_hoa"] = [
+    {"field": "id", "key": "PK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "ten_ky", "key": None, "type": "VARCHAR(150)", "new": True},
+    {"field": "loai_doi_tuong", "key": None, "type": "ENUM", "new": True},
+    {"field": "tu_ngay", "key": None, "type": "DATE", "new": True},
+    {"field": "den_ngay", "key": None, "type": "DATE", "new": True},
+    {"field": "nguoi_phu_trach_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "trang_thai", "key": None, "type": "ENUM", "new": True},
+]
+tdk = entities["tep_dinh_kem"]
+tdk.extend([
+    {"field": "ky_so_hoa_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "da_so_hoa", "key": None, "type": "TINYINT", "new": True},
+    {"field": "chat_luong_ocr", "key": None, "type": "VARCHAR(50)", "new": True},
+])
+
+# 6) Quan ly phien dang nhap / thiet bi dang nhap (muc U)
+entities["phien_dang_nhap"] = [
+    {"field": "id", "key": "PK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "nguoi_dung_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "thiet_bi", "key": None, "type": "VARCHAR(255)", "new": True},
+    {"field": "dia_chi_ip", "key": None, "type": "VARCHAR(45)", "new": True},
+    {"field": "thoi_gian_dang_nhap", "key": None, "type": "DATETIME", "new": True},
+    {"field": "thoi_gian_dang_xuat", "key": None, "type": "DATETIME", "new": True},
+    {"field": "trang_thai", "key": None, "type": "ENUM", "new": True},
+]
+
+# 7) Phieu danh gia - luan chuyen 2 chieu TTCP <-> Bo/nganh (muc I.III.2)
+entities["phieu_danh_gia"] = [
+    {"field": "id", "key": "PK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "ky_khao_sat_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "don_vi_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "nguoi_lap_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "trang_thai", "key": None, "type": "ENUM", "new": True,
+     "note": "Nháp/Đã gửi/Yêu cầu bổ sung/Đã duyệt"},
+    {"field": "ngay_gui", "key": None, "type": "DATETIME", "new": True},
+    {"field": "ngay_duyet", "key": None, "type": "DATETIME", "new": True},
+    {"field": "ghi_chu", "key": None, "type": "TEXT", "new": True},
+]
+kqks = entities["ket_qua_khao_sat"]
+idx = next(i for i, f in enumerate(kqks) if f["field"] == "ky_khao_sat_id")
+kqks[idx+1:idx+1] = [
+    {"field": "phieu_danh_gia_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+]
+
+# 8) Danh muc dung chung (muc K - ~35 danh muc dang bi thieu bang chua)
+entities["danh_muc_dung_chung"] = [
+    {"field": "id", "key": "PK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "loai_danh_muc", "key": None, "type": "VARCHAR(100)", "new": True,
+     "note": "vd: linh_vuc_giai_trinh, loai_van_ban_lien_thong,..."},
+    {"field": "ma", "key": None, "type": "VARCHAR(50)", "new": True},
+    {"field": "ten", "key": None, "type": "VARCHAR(255)", "new": True},
+    {"field": "thu_tu", "key": None, "type": "TINYINT", "new": True},
+    {"field": "trang_thai", "key": None, "type": "TINYINT", "new": True},
+]
+
+# 9) Bo sung ghi chu gia tri "Da rut" cho ENUM trang_thai cua yeu_cau_giai_trinh
+for f in entities["yeu_cau_giai_trinh"]:
+    if f["field"] == "trang_thai":
+        f["note"] = "...,Đã rút (bổ sung)"
+
 ENTITY_CLUSTER = {
     "don_vi": "DANH_MUC", "vai_tro": "DANH_MUC", "nguoi_dung": "DANH_MUC",
     "nguoi_dung_vai_tro": "DANH_MUC", "bo_phan_tiep_nhan": "DANH_MUC",
     "lich_truc": "DANH_MUC", "noi_quy_quy_che": "DANH_MUC",
     "can_bo": "DANH_MUC", "nguoi_dan": "DANH_MUC", "to_chuc": "DANH_MUC",
-    "danh_muc_ly_do_giai_trinh": "DANH_MUC",
+    "danh_muc_ly_do_giai_trinh": "DANH_MUC", "danh_muc_dung_chung": "DANH_MUC",
+    "phien_dang_nhap": "DANH_MUC",
 
     "nguoi_yeu_cau": "YCGT", "yeu_cau_giai_trinh": "YCGT",
     "phieu_yeu_cau_chuyen_mon": "YCGT", "nhiem_vu_giai_trinh": "YCGT",
@@ -144,6 +209,7 @@ ENTITY_CLUSTER = {
 
     "tieu_chi_danh_gia": "DANHGIA", "ky_khao_sat": "DANHGIA",
     "ket_qua_khao_sat": "DANHGIA", "ket_qua_danh_gia": "DANHGIA",
+    "phieu_danh_gia": "DANHGIA",
 
     "co_quan_giam_sat": "GIAMSAT", "cau_hinh_phan_quyen": "GIAMSAT",
     "nhat_ky_giam_sat": "GIAMSAT", "phieu_giao_viec": "GIAMSAT",
@@ -151,7 +217,7 @@ ENTITY_CLUSTER = {
     "lich_su_xuat_bao_cao": "GIAMSAT",
 
     "ban_giao_ho_so": "LUUTRU", "phuong_an_luu_tru": "LUUTRU",
-    "so_van_ban": "LUUTRU", "ho_so_luu_tru": "LUUTRU",
+    "so_van_ban": "LUUTRU", "ho_so_luu_tru": "LUUTRU", "ky_so_hoa": "LUUTRU",
 
     "phe_duyet": "DUNGCHUNG", "tep_dinh_kem": "DUNGCHUNG",
     "thong_bao": "DUNGCHUNG", "lich_su_trang_thai": "DUNGCHUNG",
@@ -169,6 +235,13 @@ NEW_EDGES = [
     ("chung_thu_so", "can_bo"),
     ("thiet_bi_ky_so", "chung_thu_so"),
     ("nhat_ky_he_thong", "nguoi_dung"),
+    ("ky_so_hoa", "can_bo"),
+    ("tep_dinh_kem", "ky_so_hoa"),
+    ("phien_dang_nhap", "nguoi_dung"),
+    ("phieu_danh_gia", "ky_khao_sat"),
+    ("phieu_danh_gia", "don_vi"),
+    ("phieu_danh_gia", "can_bo"),
+    ("ket_qua_khao_sat", "phieu_danh_gia"),
 ]
 edges = edges + NEW_EDGES
 
@@ -262,33 +335,34 @@ ALL_ENTITIES = list(entities.keys())
 
 render("ERD", ALL_ENTITIES, edges, "SƠ ĐỒ ERD CHI TIẾT - HỆ THỐNG QUẢN LÝ TRÁCH NHIỆM GIẢI TRÌNH (TNGT)")
 
-# --- Cac phan he lien quan truc tiep den cac muc bo sung ---
-SUB = {
-    "ERD_01_tiep_nhan_ycgt": (
-        ["nguoi_yeu_cau", "nguoi_dung", "yeu_cau_giai_trinh", "don_vi",
-         "phieu_yeu_cau_chuyen_mon", "nhiem_vu_giai_trinh", "ke_hoach_giai_trinh",
-         "buoi_lam_viec", "bao_cao_thu_thap_du_lieu", "can_bo",
-         "danh_muc_ly_do_giai_trinh"],
-        "TIẾP NHẬN & XỬ LÝ YÊU CẦU GIẢI TRÌNH (đã bổ sung gia hạn)",
-    ),
-    "ERD_02_van_ban_cong_khai": (
-        ["van_ban_giai_trinh", "can_bo", "don_vi", "y_kien_phoi_hop",
-         "xu_ly_an_danh", "cong_khai_van_ban", "gui_van_ban_lien_thong",
-         "yeu_cau_giai_trinh"],
-        "VĂN BẢN GIẢI TRÌNH & CÔNG KHAI (đã bổ sung loại văn bản & thay thế)",
-    ),
-    "ERD_07_dung_chung": (
-        ["phe_duyet", "tep_dinh_kem", "thong_bao", "lich_su_trang_thai",
-         "luot_tra_cuu", "nhat_ky_he_thong", "can_bo", "nguoi_dung",
-         "yeu_cau_giai_trinh"],
-        "BẢNG DÙNG CHUNG (POLYMORPHIC) - đã bổ sung nhật ký hệ thống",
-    ),
-    "ERD_08_quan_tri": (
-        ["can_bo", "nhat_ky_cau_hinh_he_thong", "chung_thu_so", "thiet_bi_ky_so"],
-        "QUẢN TRỊ HỆ THỐNG - đã bổ sung chứng thư số & thiết bị ký số",
-    ),
+# --- Sinh lai TOAN BO 9 file ERD phan he tu cung 1 nguon, dam bao nhat quan ---
+DOMAIN_FILE = {
+    "DANH_MUC": ("ERD_00_danh_muc", "DANH MỤC DÙNG CHUNG (đã bổ sung lý do, danh mục, phiên đăng nhập)"),
+    "YCGT": ("ERD_01_tiep_nhan_ycgt", "TIẾP NHẬN & XỬ LÝ YÊU CẦU GIẢI TRÌNH (đã bổ sung gia hạn)"),
+    "VANBAN": ("ERD_02_van_ban_cong_khai", "VĂN BẢN GIẢI TRÌNH & CÔNG KHAI (đã bổ sung loại văn bản & thay thế)"),
+    "PHKN": ("ERD_03_phan_hoi_khieu_nai", "PHẢN HỒI & KHIẾU NẠI"),
+    "DANHGIA": ("ERD_04_danh_gia_tngt", "ĐÁNH GIÁ THỰC HIỆN TNGT (đã bổ sung phiếu đánh giá 2 chiều)"),
+    "GIAMSAT": ("ERD_05_giam_sat_giao_viec_bao_cao", "GIÁM SÁT, GIAO VIỆC & BÁO CÁO"),
+    "LUUTRU": ("ERD_06_so_van_ban_luu_tru", "SỔ VĂN BẢN & LƯU TRỮ (đã bổ sung kỳ số hoá)"),
+    "DUNGCHUNG": ("ERD_07_dung_chung", "BẢNG DÙNG CHUNG (POLYMORPHIC) - đã bổ sung nhật ký hệ thống"),
+    "QUANTRI": ("ERD_08_quan_tri", "QUẢN TRỊ HỆ THỐNG - đã bổ sung chứng thư số & thiết bị ký số"),
 }
-for name, (ents, title) in SUB.items():
-    render(name, ents, edges, title, with_clusters=False)
+
+for cname, (fname, title) in DOMAIN_FILE.items():
+    core = {e for e, c in ENTITY_CLUSTER.items() if c == cname}
+    if cname == "DANH_MUC":
+        # DANH_MUC la hub duoc hau het bang khac tham chieu toi (don_vi, can_bo,
+        # nguoi_dung...) -> khong ke neighbor de tranh so do bi roi, chi hien
+        # cac bang thuoc chinh nhom danh muc.
+        entity_subset = core
+    else:
+        neighbors = set()
+        for a, b in edges:
+            if a in core and b not in core:
+                neighbors.add(b)
+            if b in core and a not in core:
+                neighbors.add(a)
+        entity_subset = core | neighbors
+    render(fname, sorted(entity_subset), edges, title, with_clusters=False)
 
 print("DONE")

@@ -13,117 +13,117 @@
 <!-- can_bo -->
 <g id="node1" class="node">
 <title>can_bo</title>
-<polygon fill="#dce6f1" stroke="transparent" points="770,-417.5 770,-437.5 1078,-437.5 1078,-417.5 770,-417.5"/>
-<text text-anchor="start" x="903.5" y="-425.7" font-family="Consolas" font-weight="bold" font-size="11.00">can_bo</text>
-<text text-anchor="start" x="774" y="-404.2" font-family="Consolas" font-weight="bold" font-size="11.00">id</text>
-<text text-anchor="start" x="870" y="-403.3" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
-<text text-anchor="start" x="891" y="-403.3" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">/FK</text>
-<text text-anchor="start" x="932" y="-402.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="774" y="-384.1" font-family="Consolas" font-size="8.00" fill="#999999">= = nguoi_dung.id</text>
-<text text-anchor="start" x="774" y="-363.2" font-family="Consolas" font-size="11.00">ma_can_bo</text>
-<text text-anchor="start" x="932" y="-362.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(30)</text>
-<text text-anchor="start" x="774" y="-340.2" font-family="Consolas" font-size="11.00">ho_ten</text>
-<text text-anchor="start" x="932" y="-339.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(150)</text>
-<text text-anchor="start" x="774" y="-318.2" font-family="Consolas" font-weight="bold" font-size="11.00">don_vi_id</text>
-<text text-anchor="start" x="870" y="-316.3" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
-<text text-anchor="start" x="932" y="-316.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="774" y="-294.2" font-family="Consolas" font-size="11.00">chuc_vu</text>
-<text text-anchor="start" x="932" y="-293.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(100)</text>
-<text text-anchor="start" x="774" y="-271.2" font-family="Consolas" font-size="11.00">email</text>
-<text text-anchor="start" x="932" y="-270.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(150)</text>
-<text text-anchor="start" x="774" y="-248.2" font-family="Consolas" font-size="11.00">so_dien_thoai</text>
-<text text-anchor="start" x="932" y="-247.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(20)</text>
-<polygon fill="none" stroke="black" points="769,-238.5 769,-438.5 1079,-438.5 1079,-238.5 769,-238.5"/>
-</g>
-<!-- nhat_ky_cau_hinh_he_thong -->
-<g id="node2" class="node">
-<title>nhat_ky_cau_hinh_he_thong</title>
-<polygon fill="#d9d9d9" stroke="transparent" points="379,-397.5 379,-417.5 689,-417.5 689,-397.5 379,-397.5"/>
-<text text-anchor="start" x="449.5" y="-405.7" font-family="Consolas" font-weight="bold" font-size="11.00">nhat_ky_cau_hinh_he_thong</text>
-<text text-anchor="start" x="383" y="-384.2" font-family="Consolas" font-weight="bold" font-size="11.00">id</text>
-<text text-anchor="start" x="506" y="-382.3" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
-<text text-anchor="start" x="543" y="-382.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="383" y="-361.2" font-family="Consolas" font-weight="bold" font-size="11.00">nguoi_thay_doi_id</text>
-<text text-anchor="start" x="506" y="-359.3" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
-<text text-anchor="start" x="543" y="-359.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="383" y="-337.2" font-family="Consolas" font-size="11.00">noi_dung_thay_doi</text>
-<text text-anchor="start" x="543" y="-336.3" font-family="Times,serif" font-size="14.00" fill="#555555">TEXT</text>
-<text text-anchor="start" x="383" y="-315.2" font-family="Consolas" font-weight="bold" font-size="11.00">nguoi_duyet_id</text>
-<text text-anchor="start" x="506" y="-313.3" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
-<text text-anchor="start" x="543" y="-313.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="383" y="-291.2" font-family="Consolas" font-size="11.00">trang_thai</text>
-<text text-anchor="start" x="543" y="-290.3" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
-<text text-anchor="start" x="383" y="-268.2" font-family="Consolas" font-size="11.00">thoi_gian</text>
-<text text-anchor="start" x="543" y="-267.3" font-family="Times,serif" font-size="14.00" fill="#555555">DATETIME</text>
-<polygon fill="none" stroke="black" points="378,-258.5 378,-418.5 690,-418.5 690,-258.5 378,-258.5"/>
-</g>
-<!-- nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo -->
-<g id="edge1" class="edge">
-<title>nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo</title>
-<path fill="none" stroke="#5578a8" d="M690.1,-311.83C716.08,-311.83 743.01,-311.83 768.96,-311.83"/>
-</g>
-<!-- nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo -->
-<g id="edge2" class="edge">
-<title>nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo</title>
-<path fill="none" stroke="#5578a8" d="M690.1,-365.17C716.08,-365.17 743.01,-365.17 768.96,-365.17"/>
+<polygon fill="#dce6f1" stroke="transparent" points="770,-179 770,-199 1078,-199 1078,-179 770,-179"/>
+<text text-anchor="start" x="903.5" y="-187.2" font-family="Consolas" font-weight="bold" font-size="11.00">can_bo</text>
+<text text-anchor="start" x="774" y="-165.7" font-family="Consolas" font-weight="bold" font-size="11.00">id</text>
+<text text-anchor="start" x="870" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
+<text text-anchor="start" x="891" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">/FK</text>
+<text text-anchor="start" x="932" y="-163.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="774" y="-145.6" font-family="Consolas" font-size="8.00" fill="#999999">= = nguoi_dung.id</text>
+<text text-anchor="start" x="774" y="-124.7" font-family="Consolas" font-size="11.00">ma_can_bo</text>
+<text text-anchor="start" x="932" y="-123.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(30)</text>
+<text text-anchor="start" x="774" y="-101.7" font-family="Consolas" font-size="11.00">ho_ten</text>
+<text text-anchor="start" x="932" y="-100.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(150)</text>
+<text text-anchor="start" x="774" y="-79.7" font-family="Consolas" font-weight="bold" font-size="11.00">don_vi_id</text>
+<text text-anchor="start" x="870" y="-77.8" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
+<text text-anchor="start" x="932" y="-77.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="774" y="-55.7" font-family="Consolas" font-size="11.00">chuc_vu</text>
+<text text-anchor="start" x="932" y="-54.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(100)</text>
+<text text-anchor="start" x="774" y="-32.7" font-family="Consolas" font-size="11.00">email</text>
+<text text-anchor="start" x="932" y="-31.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(150)</text>
+<text text-anchor="start" x="774" y="-9.7" font-family="Consolas" font-size="11.00">so_dien_thoai</text>
+<text text-anchor="start" x="932" y="-8.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(20)</text>
+<polygon fill="none" stroke="black" points="769,0 769,-200 1079,-200 1079,0 769,0"/>
 </g>
 <!-- chung_thu_so -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>chung_thu_so</title>
-<polygon fill="#d9d9d9" stroke="transparent" points="393,-207.5 393,-227.5 676,-227.5 676,-207.5 393,-207.5"/>
-<text text-anchor="start" x="493.5" y="-215.7" font-family="Consolas" font-weight="bold" font-size="11.00">chung_thu_so</text>
-<text text-anchor="start" x="397" y="-194.2" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">id</text>
-<text text-anchor="start" x="493" y="-192.3" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
-<text text-anchor="start" x="530" y="-192.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="397" y="-171.2" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">can_bo_id</text>
-<text text-anchor="start" x="493" y="-169.3" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
-<text text-anchor="start" x="530" y="-169.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="397" y="-147.2" font-family="Consolas" font-size="11.00" fill="#c00000">so_serial</text>
-<text text-anchor="start" x="530" y="-146.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(100)</text>
-<text text-anchor="start" x="397" y="-124.2" font-family="Consolas" font-size="11.00" fill="#c00000">nha_cung_cap</text>
-<text text-anchor="start" x="530" y="-123.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(255)</text>
-<text text-anchor="start" x="397" y="-101.2" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_cap</text>
-<text text-anchor="start" x="530" y="-100.3" font-family="Times,serif" font-size="14.00" fill="#555555">DATE</text>
-<text text-anchor="start" x="397" y="-78.2" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_het_han</text>
-<text text-anchor="start" x="530" y="-77.3" font-family="Times,serif" font-size="14.00" fill="#555555">DATE</text>
-<text text-anchor="start" x="397" y="-55.2" font-family="Consolas" font-size="11.00" fill="#c00000">trang_thai</text>
-<text text-anchor="start" x="530" y="-54.3" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
-<text text-anchor="start" x="397" y="-32.2" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_thu_hoi</text>
-<text text-anchor="start" x="530" y="-31.3" font-family="Times,serif" font-size="14.00" fill="#555555">DATETIME</text>
-<text text-anchor="start" x="397" y="-9.2" font-family="Consolas" font-size="11.00" fill="#c00000">ly_do_thu_hoi</text>
-<text text-anchor="start" x="530" y="-8.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(255)</text>
-<polygon fill="none" stroke="black" points="391.5,0 391.5,-229 676.5,-229 676.5,0 391.5,0"/>
+<polygon fill="#d9d9d9" stroke="transparent" points="393,-417 393,-437 676,-437 676,-417 393,-417"/>
+<text text-anchor="start" x="493.5" y="-425.2" font-family="Consolas" font-weight="bold" font-size="11.00">chung_thu_so</text>
+<text text-anchor="start" x="397" y="-403.7" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">id</text>
+<text text-anchor="start" x="493" y="-401.8" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
+<text text-anchor="start" x="530" y="-401.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="397" y="-380.7" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">can_bo_id</text>
+<text text-anchor="start" x="493" y="-378.8" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
+<text text-anchor="start" x="530" y="-378.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="397" y="-356.7" font-family="Consolas" font-size="11.00" fill="#c00000">so_serial</text>
+<text text-anchor="start" x="530" y="-355.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(100)</text>
+<text text-anchor="start" x="397" y="-333.7" font-family="Consolas" font-size="11.00" fill="#c00000">nha_cung_cap</text>
+<text text-anchor="start" x="530" y="-332.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(255)</text>
+<text text-anchor="start" x="397" y="-310.7" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_cap</text>
+<text text-anchor="start" x="530" y="-309.8" font-family="Times,serif" font-size="14.00" fill="#555555">DATE</text>
+<text text-anchor="start" x="397" y="-287.7" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_het_han</text>
+<text text-anchor="start" x="530" y="-286.8" font-family="Times,serif" font-size="14.00" fill="#555555">DATE</text>
+<text text-anchor="start" x="397" y="-264.7" font-family="Consolas" font-size="11.00" fill="#c00000">trang_thai</text>
+<text text-anchor="start" x="530" y="-263.8" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
+<text text-anchor="start" x="397" y="-241.7" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_thu_hoi</text>
+<text text-anchor="start" x="530" y="-240.8" font-family="Times,serif" font-size="14.00" fill="#555555">DATETIME</text>
+<text text-anchor="start" x="397" y="-218.7" font-family="Consolas" font-size="11.00" fill="#c00000">ly_do_thu_hoi</text>
+<text text-anchor="start" x="530" y="-217.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(255)</text>
+<polygon fill="none" stroke="black" points="391.5,-209.5 391.5,-438.5 676.5,-438.5 676.5,-209.5 391.5,-209.5"/>
 </g>
 <!-- chung_thu_so&#45;&gt;can_bo -->
 <g id="edge3" class="edge">
 <title>chung_thu_so&#45;&gt;can_bo</title>
-<path fill="none" stroke="#5578a8" d="M534,-229.02C534,-240.77 534,-248.5 534,-248.5 534,-248.5 659.98,-248.5 768.74,-248.5"/>
+<path fill="none" stroke="#5578a8" d="M534,-209.48C534,-197.73 534,-190 534,-190 534,-190 659.98,-190 768.74,-190"/>
+</g>
+<!-- nhat_ky_cau_hinh_he_thong -->
+<g id="node3" class="node">
+<title>nhat_ky_cau_hinh_he_thong</title>
+<polygon fill="#d9d9d9" stroke="transparent" points="379,-159 379,-179 689,-179 689,-159 379,-159"/>
+<text text-anchor="start" x="449.5" y="-167.2" font-family="Consolas" font-weight="bold" font-size="11.00">nhat_ky_cau_hinh_he_thong</text>
+<text text-anchor="start" x="383" y="-145.7" font-family="Consolas" font-weight="bold" font-size="11.00">id</text>
+<text text-anchor="start" x="506" y="-143.8" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
+<text text-anchor="start" x="543" y="-143.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="383" y="-122.7" font-family="Consolas" font-weight="bold" font-size="11.00">nguoi_thay_doi_id</text>
+<text text-anchor="start" x="506" y="-120.8" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
+<text text-anchor="start" x="543" y="-120.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="383" y="-98.7" font-family="Consolas" font-size="11.00">noi_dung_thay_doi</text>
+<text text-anchor="start" x="543" y="-97.8" font-family="Times,serif" font-size="14.00" fill="#555555">TEXT</text>
+<text text-anchor="start" x="383" y="-76.7" font-family="Consolas" font-weight="bold" font-size="11.00">nguoi_duyet_id</text>
+<text text-anchor="start" x="506" y="-74.8" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
+<text text-anchor="start" x="543" y="-74.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="383" y="-52.7" font-family="Consolas" font-size="11.00">trang_thai</text>
+<text text-anchor="start" x="543" y="-51.8" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
+<text text-anchor="start" x="383" y="-29.7" font-family="Consolas" font-size="11.00">thoi_gian</text>
+<text text-anchor="start" x="543" y="-28.8" font-family="Times,serif" font-size="14.00" fill="#555555">DATETIME</text>
+<polygon fill="none" stroke="black" points="378,-20 378,-180 690,-180 690,-20 378,-20"/>
+</g>
+<!-- nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo -->
+<g id="edge1" class="edge">
+<title>nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo</title>
+<path fill="none" stroke="#5578a8" d="M690.1,-73.33C716.08,-73.33 743.01,-73.33 768.96,-73.33"/>
+</g>
+<!-- nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo -->
+<g id="edge2" class="edge">
+<title>nhat_ky_cau_hinh_he_thong&#45;&gt;can_bo</title>
+<path fill="none" stroke="#5578a8" d="M690.1,-126.67C716.08,-126.67 743.01,-126.67 768.96,-126.67"/>
 </g>
 <!-- thiet_bi_ky_so -->
 <g id="node4" class="node">
 <title>thiet_bi_ky_so</title>
-<polygon fill="#d9d9d9" stroke="transparent" points="1.5,-173.5 1.5,-193.5 298.5,-193.5 298.5,-173.5 1.5,-173.5"/>
-<text text-anchor="start" x="102.5" y="-181.7" font-family="Consolas" font-weight="bold" font-size="11.00">thiet_bi_ky_so</text>
-<text text-anchor="start" x="5.5" y="-160.2" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">id</text>
-<text text-anchor="start" x="115.5" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
-<text text-anchor="start" x="152.5" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="5.5" y="-137.2" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">chung_thu_so_id</text>
-<text text-anchor="start" x="115.5" y="-135.3" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
-<text text-anchor="start" x="152.5" y="-135.3" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
-<text text-anchor="start" x="5.5" y="-113.2" font-family="Consolas" font-size="11.00" fill="#c00000">loai_thiet_bi</text>
-<text text-anchor="start" x="152.5" y="-112.3" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
-<text text-anchor="start" x="5.5" y="-90.2" font-family="Consolas" font-size="11.00" fill="#c00000">ma_thiet_bi</text>
-<text text-anchor="start" x="152.5" y="-89.3" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(100)</text>
-<text text-anchor="start" x="5.5" y="-67.2" font-family="Consolas" font-size="11.00" fill="#c00000">trang_thai</text>
-<text text-anchor="start" x="152.5" y="-66.3" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
-<text text-anchor="start" x="5.5" y="-44.2" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_dang_ky</text>
-<text text-anchor="start" x="152.5" y="-43.3" font-family="Times,serif" font-size="14.00" fill="#555555">DATE</text>
-<polygon fill="none" stroke="black" points="0,-34.5 0,-194.5 299,-194.5 299,-34.5 0,-34.5"/>
+<polygon fill="#d9d9d9" stroke="transparent" points="1.5,-383 1.5,-403 298.5,-403 298.5,-383 1.5,-383"/>
+<text text-anchor="start" x="102.5" y="-391.2" font-family="Consolas" font-weight="bold" font-size="11.00">thiet_bi_ky_so</text>
+<text text-anchor="start" x="5.5" y="-369.7" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">id</text>
+<text text-anchor="start" x="115.5" y="-367.8" font-family="Times,serif" font-size="14.00" fill="#b8860b">PK</text>
+<text text-anchor="start" x="152.5" y="-367.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="5.5" y="-346.7" font-family="Consolas" font-weight="bold" font-size="11.00" fill="#c00000">chung_thu_so_id</text>
+<text text-anchor="start" x="115.5" y="-344.8" font-family="Times,serif" font-size="14.00" fill="#1f6fb2">FK</text>
+<text text-anchor="start" x="152.5" y="-344.8" font-family="Times,serif" font-size="14.00" fill="#555555">BIGINT UNSIGNED</text>
+<text text-anchor="start" x="5.5" y="-322.7" font-family="Consolas" font-size="11.00" fill="#c00000">loai_thiet_bi</text>
+<text text-anchor="start" x="152.5" y="-321.8" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
+<text text-anchor="start" x="5.5" y="-299.7" font-family="Consolas" font-size="11.00" fill="#c00000">ma_thiet_bi</text>
+<text text-anchor="start" x="152.5" y="-298.8" font-family="Times,serif" font-size="14.00" fill="#555555">VARCHAR(100)</text>
+<text text-anchor="start" x="5.5" y="-276.7" font-family="Consolas" font-size="11.00" fill="#c00000">trang_thai</text>
+<text text-anchor="start" x="152.5" y="-275.8" font-family="Times,serif" font-size="14.00" fill="#555555">ENUM</text>
+<text text-anchor="start" x="5.5" y="-253.7" font-family="Consolas" font-size="11.00" fill="#c00000">ngay_dang_ky</text>
+<text text-anchor="start" x="152.5" y="-252.8" font-family="Times,serif" font-size="14.00" fill="#555555">DATE</text>
+<polygon fill="none" stroke="black" points="0,-244 0,-404 299,-404 299,-244 0,-244"/>
 </g>
 <!-- thiet_bi_ky_so&#45;&gt;chung_thu_so -->
 <g id="edge4" class="edge">
 <title>thiet_bi_ky_so&#45;&gt;chung_thu_so</title>
-<path fill="none" stroke="#5578a8" d="M299.26,-114.5C329.52,-114.5 361.25,-114.5 391.26,-114.5"/>
+<path fill="none" stroke="#5578a8" d="M299.26,-324C329.52,-324 361.25,-324 391.26,-324"/>
 </g>
 </g>
 </svg>
