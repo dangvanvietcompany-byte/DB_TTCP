@@ -1,0 +1,1798 @@
+{
+ "don_vi": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ma_don_vi",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "ten_don_vi",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "don_vi_cha_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "cap_don_vi",
+   "key": null,
+   "type": "TINYINT"
+  },
+  {
+   "field": "loai_don_vi",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "dia_chi",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "TINYINT"
+  },
+  {
+   "field": "ngay_tao",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "vai_tro": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ma_vai_tro",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "ten_vai_tro",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "mo_ta",
+   "key": null,
+   "type": "VARCHAR(255)"
+  }
+ ],
+ "nguoi_dung": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ma_dinh_danh",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "loai_tk",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "TINYINT"
+  },
+  {
+   "field": "lan_dang_nhap_cuoi",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ngay_tao",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "nguoi_dung_vai_tro": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_dung_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "vai_tro_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_vi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_bat_dau",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "ngay_ket_thuc",
+   "key": null,
+   "type": "DATE"
+  }
+ ],
+ "bo_phan_tiep_nhan": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_vi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ten_bo_phan",
+   "key": null,
+   "type": "VARCHAR(150)"
+  }
+ ],
+ "lich_truc": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "bo_phan_tiep_nhan_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_dung_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_truc",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "ca_truc",
+   "key": null,
+   "type": "VARCHAR(20)"
+  }
+ ],
+ "noi_quy_quy_che": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_vi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ten_quy_che",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "file_dinh_kem",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "ngay_ban_hanh",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "TINYINT"
+  }
+ ],
+ "nguoi_yeu_cau": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "loai_doi_tuong",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ho_ten",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "so_cccd",
+   "key": null,
+   "type": "VARCHAR(20)"
+  },
+  {
+   "field": "nguoi_dung_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "dia_chi",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "email",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "so_dien_thoai",
+   "key": null,
+   "type": "VARCHAR(20)"
+  },
+  {
+   "field": "ngay_tao",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "yeu_cau_giai_trinh": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ma_yeu_cau",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "nguoi_yeu_cau_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "hinh_thuc_gui",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "nguon_goc",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "noi_dung_yeu_cau",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_gui",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "don_vi_tiep_nhan_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_vi_chuyen_mon_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "han_xu_ly",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ngay_dong",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "phieu_yeu_cau_chuyen_mon": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "loai_phieu",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "don_vi_chuyen_mon_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_gui_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_gui",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "VARCHAR(50)"
+  }
+ ],
+ "nhiem_vu_giai_trinh": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "phieu_yeu_cau_chuyen_mon_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "can_bo_chuyen_mon_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_giao_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_giao",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "han_hoan_thanh",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "ke_hoach_giai_trinh": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nhiem_vu_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "phien_ban",
+   "key": null,
+   "type": "INT"
+  },
+  {
+   "field": "noi_dung_ke_hoach",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "nguoi_lap_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_lap",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "buoi_lam_viec": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "hinh_thuc",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "dia_diem",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "link_meeting",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "thoi_gian",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "thanh_phan_tham_gia",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "muc_tieu",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "bao_cao_thu_thap_du_lieu": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nhiem_vu_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_lap",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "van_ban_giai_trinh": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "so_van_ban",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "trich_yeu",
+   "key": null,
+   "type": "VARCHAR(500)"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "LONGTEXT"
+  },
+  {
+   "field": "nguoi_soan_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_soan",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "nguoi_ky_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_ban_hanh",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "chu_ky_so",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "y_kien_phoi_hop": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "van_ban_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_vi_gop_y_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_gop_y_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung_gop_y",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_gop_y",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "xu_ly_an_danh": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "van_ban_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "thong_tin_nhay_cam",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "phuong_phap_xu_ly",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "nguoi_xu_ly_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_xu_ly",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "cong_khai_van_ban": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "van_ban_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "kenh_dang_tai",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "nguoi_duyet_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_duyet",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ngay_dang_tai",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "gui_van_ban_lien_thong": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "van_ban_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ma_lien_thong",
+   "key": null,
+   "type": "VARCHAR(100)"
+  },
+  {
+   "field": "ngay_gui",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ket_qua",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "phan_hoi_api",
+   "key": null,
+   "type": "TEXT"
+  }
+ ],
+ "phan_hoi_van_ban": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "van_ban_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_gui_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "hinh_thuc_gui",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_gui",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "quyet_dinh_thu_ly_phan_hoi": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "phan_hoi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_ky_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "so_quyet_dinh",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "ngay_ky",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ket_qua",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "don_khieu_nai": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_khieu_nai_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_nop",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "can_bo_tiep_nhan_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "quyet_dinh_thu_ly_khieu_nai": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_khieu_nai_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_ky_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "so_quyet_dinh",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "ngay_ky",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ket_qua",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "xac_minh_khieu_nai": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_khieu_nai_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "can_bo_xac_minh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung_xac_minh",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ket_qua_giai_quyet",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_cap_nhat",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "tieu_chi_danh_gia": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ten_tieu_chi",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "mo_ta",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "trong_so",
+   "key": null,
+   "type": "DECIMAL(5,2)"
+  },
+  {
+   "field": "pham_vi",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "don_vi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "TINYINT"
+  }
+ ],
+ "ky_khao_sat": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ten_ky",
+   "key": null,
+   "type": "VARCHAR(100)"
+  },
+  {
+   "field": "tu_ngay",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "den_ngay",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "ket_qua_khao_sat": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ky_khao_sat_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_vi_duoc_danh_gia_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "tieu_chi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "diem_so",
+   "key": null,
+   "type": "DECIMAL(5,2)"
+  },
+  {
+   "field": "nguon_du_lieu",
+   "key": null,
+   "type": "VARCHAR(100)"
+  },
+  {
+   "field": "can_bo_thu_thap_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_thu_thap",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "ket_qua_danh_gia": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ky_khao_sat_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "don_vi_duoc_danh_gia_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "tong_diem",
+   "key": null,
+   "type": "DECIMAL(6,2)"
+  },
+  {
+   "field": "xep_loai",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "nguoi_lap_du_thao_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_duyet_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ngay_duyet",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ngay_cong_bo",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "co_quan_giam_sat": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ten_co_quan",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "ma_co_quan",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "dia_chi",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "nguoi_lien_he",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "email",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "so_dien_thoai",
+   "key": null,
+   "type": "VARCHAR(20)"
+  }
+ ],
+ "cau_hinh_phan_quyen": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "co_quan_giam_sat_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "pham_vi_du_lieu",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "muc_do_truy_cap",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ngay_bat_dau",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "ngay_ket_thuc",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "nguoi_cau_hinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_duyet_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ngay_duyet",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "nhat_ky_giam_sat": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "cau_hinh_phan_quyen_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_truy_cap",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "thoi_gian_truy_cap",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "thao_tac",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "du_lieu_truy_cap",
+   "key": null,
+   "type": "TEXT"
+  }
+ ],
+ "phieu_giao_viec": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_giao_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_nhan_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_giao",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "han_hoan_thanh",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "bao_cao_nhiem_vu": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "phieu_giao_viec_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "ngay_bao_cao",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "nguoi_duyet_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ket_qua_danh_gia",
+   "key": null,
+   "type": "VARCHAR(100)"
+  },
+  {
+   "field": "ngay_duyet",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "bao_cao_thong_ke": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_tao_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ky_bao_cao",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "don_vi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "tieu_chi",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "dinh_dang_xuat",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ngay_tao",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "duong_dan_file",
+   "key": null,
+   "type": "VARCHAR(255)"
+  }
+ ],
+ "lich_su_xuat_bao_cao": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "bao_cao_thong_ke_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_xuat_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_xuat",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "ban_giao_ho_so": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_ban_giao_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_nhan_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_ban_giao",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai_xac_nhan",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ngay_xac_nhan",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "phuong_an_luu_tru": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung_phuong_an",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "nguoi_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_trinh",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "nguoi_duyet_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_duyet",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "so_van_ban": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "van_ban_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "so_hieu",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "loai_van_ban",
+   "key": null,
+   "type": "VARCHAR(100)"
+  },
+  {
+   "field": "ngay_dang_ky",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "nguoi_dang_ky_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  }
+ ],
+ "ho_so_luu_tru": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "phuong_an_luu_tru_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "so_luu_tru",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "ngay_dong_ho_so",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai_toan_ven",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "don_vi_luu_tru_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ma_lien_thong",
+   "key": null,
+   "type": "VARCHAR(100)"
+  }
+ ],
+ "phe_duyet": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "doi_tuong_loai",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "doi_tuong_id",
+   "key": null,
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "buoc_phe_duyet",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "nguoi_phe_duyet_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ket_qua",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "ghi_chu",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "chu_ky_so",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "thoi_gian_phe_duyet",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "tep_dinh_kem": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "doi_tuong_loai",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "doi_tuong_id",
+   "key": null,
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ten_file",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "duong_dan",
+   "key": null,
+   "type": "VARCHAR(500)"
+  },
+  {
+   "field": "loai_file",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "dung_luong",
+   "key": null,
+   "type": "BIGINT"
+  },
+  {
+   "field": "nguoi_tai_len_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ngay_tai_len",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "thong_bao": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "doi_tuong_loai",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "doi_tuong_id",
+   "key": null,
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "kenh_gui",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "noi_dung",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "nguoi_nhan",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "thoi_gian_gui",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "trang_thai_gui",
+   "key": null,
+   "type": "ENUM"
+  }
+ ],
+ "lich_su_trang_thai": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "doi_tuong_loai",
+   "key": null,
+   "type": "VARCHAR(50)"
+  },
+  {
+   "field": "doi_tuong_id",
+   "key": null,
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "VARCHAR(100)"
+  },
+  {
+   "field": "loai_hien_thi",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "nguoi_cap_nhat_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "thoi_gian",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ghi_chu",
+   "key": null,
+   "type": "TEXT"
+  }
+ ],
+ "luot_tra_cuu": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "yeu_cau_giai_trinh_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_tra_cuu",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "ma_tra_cuu",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "thoi_gian_tra_cuu",
+   "key": null,
+   "type": "DATETIME"
+  },
+  {
+   "field": "ket_qua",
+   "key": null,
+   "type": "VARCHAR(100)"
+  }
+ ],
+ "nhat_ky_cau_hinh_he_thong": [
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_thay_doi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "noi_dung_thay_doi",
+   "key": null,
+   "type": "TEXT"
+  },
+  {
+   "field": "nguoi_duyet_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "trang_thai",
+   "key": null,
+   "type": "ENUM"
+  },
+  {
+   "field": "thoi_gian",
+   "key": null,
+   "type": "DATETIME"
+  }
+ ],
+ "can_bo": [
+  {
+   "field": "email",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "chuc_vu",
+   "key": null,
+   "type": "VARCHAR(100)"
+  },
+  {
+   "field": "don_vi_id",
+   "key": "FK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "ho_ten",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "ma_can_bo",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "can_bo",
+   "key": null,
+   "type": null
+  }
+ ],
+ "nguoi_dan": [
+  {
+   "field": "email",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "dia_chi_thuong_tru",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "gioi_tinh",
+   "key": null,
+   "type": "TINYINT"
+  },
+  {
+   "field": "ngay_sinh",
+   "key": null,
+   "type": "DATE"
+  },
+  {
+   "field": "ho_ten",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "nguoi_dan",
+   "key": null,
+   "type": null
+  }
+ ],
+ "to_chuc": [
+  {
+   "field": "email",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "dia_chi",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "nguoi_dai_dien",
+   "key": null,
+   "type": "VARCHAR(150)"
+  },
+  {
+   "field": "ma_so_thue",
+   "key": null,
+   "type": "VARCHAR(30)"
+  },
+  {
+   "field": "ten_to_chuc",
+   "key": null,
+   "type": "VARCHAR(255)"
+  },
+  {
+   "field": "id",
+   "key": "PK",
+   "type": "BIGINT UNSIGNED"
+  },
+  {
+   "field": "to_chuc",
+   "key": null,
+   "type": null
+  }
+ ]
+}
