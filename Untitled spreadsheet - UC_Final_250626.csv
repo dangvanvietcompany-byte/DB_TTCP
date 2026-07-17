@@ -1,0 +1,1147 @@
+STT,Mô tả yêu cầu,Tác nhân
+A,QUẢN TRỊ ĐƠN VỊ,
+I,Quản lý cây đơn vị có trách nhiệm giải trình,
+1,Tra cứu thông tin cây đơn vị,Quản trị hệ thống
+2,Quản lý thông tin cây đơn vị,Quản trị hệ thống
+3,Xem lịch sửa thay đổi từng cây đơn vị,Quản trị hệ thống
+4,Quản lý cấp hành chính của đơn vị,Quản trị hệ thống
+5,Đồng bộ cây đơn vị với CSDLQG về đơn vị hành chính,Quản trị hệ thống
+6,Xuất danh sách cây đơn vị ra file,Quản trị hệ thống
+II,Quản lý cán bộ thuộc đơn vị có trách nhiệm giải trình,
+7,Tra cứu thông tin cán bộ,Quản trị hệ thống
+8,Quản lý cán bộ,Quản trị hệ thống
+9,Xuất đường dẫn liên kết theo đơn vị,Quản trị hệ thống
+10,Tra cứu yêu cầu truy cập tài khoản,Quản trị hệ thống
+11,"Đồng bộ cán bộ với CSDLQG về cán bộ, công chức",Quản trị hệ thống
+12,Xuất cán bộ cây đơn vị,Quản trị hệ thống
+III,Quản lý hồ sơ cán bộ,
+13,Quản lý lịch sử công tác của cán bộ,Quản trị hệ thống
+14,Xuất danh sách cán bộ theo đơn vị ra file,Quản trị hệ thống
+15,Xuất sơ đồ nhân sự theo cây đơn vị,Quản trị hệ thống
+16,Quản lý kỳ báo cáo công tác PCTN,Quản trị hệ thống
+17,Tra cứu thông tin kỳ báo cáo,Quản trị hệ thống
+18,Quản lý thông tin kỳ báo cáo,Quản trị hệ thống
+19,Khai báo danh sách đơn vị phải báo cáo,Quản trị hệ thống
+20,Tự động tạo báo cáo cho đơn vị trong danh sách,Quản trị hệ thống
+21,Đóng/mở kỳ báo cáo,Quản trị hệ thống
+22,Tải danh sách hồ sơ cán bộ lên hệ thống,Quản trị hệ thống
+IV,Quản lý người có thẩm quyền giải trình,
+23,Tra cứu thông tin người có thẩm quyền giải trình,Quản trị viên hệ thống
+24,Quản lý thông tin người có thẩm quyền giải trình,Quản trị viên hệ thống
+25,Quản lý người đại diện theo ủy quyền giải trình,Quản trị viên hệ thống
+26,Quản lý thay đổi người có thẩm quyền giải trình,Quản trị viên hệ thống
+V,Quản lý bộ phận tiếp nhận yêu cầu giải trình,
+27,Tra cứu thông tin bộ phận tiếp nhận yêu cầu giải trình,Quản trị viên hệ thống
+28,Quản lý thông tin bộ phận tiếp nhận yêu cầu giải trình,Quản trị viên hệ thống
+29,Phân công cán bộ tiếp nhận theo lĩnh vực,Quản trị viên hệ thống
+30,Quản lý lịch trực tiếp công dân của bộ phận tiếp nhận,Quản trị viên hệ thống
+VI,"Quản lý nội quy, quy chế giải trình",
+31,"Tra cứu thông tin nội quy, quy chế giải trình",Lãnh đạo đơn vị
+32,"Quản lý thông tin tài liệu nội quy, quy chế giải trình",Lãnh đạo đơn vị
+33,"Đăng tải nội quy, quy chế lên cổng thông tin công khai",Lãnh đạo đơn vị
+VII,Khung tiêu chí đánh giá kết quả giải trình,
+34,Cấu hình thông tin chỉ tiêu đánh giá,Quản trị TTCP
+35,Thiết lập trọng số và phương thức tính điểm,Quản trị TTCP
+VIII,Quản lý mẫu email/ thông báo hệ thống,
+36,Tra cứu danh sách mẫu email/ thông báo hệ thống,Quản trị viên hệ thống
+37,Quản lý mẫu email/ thông báo hệ thống,Quản trị viên hệ thống
+IX,Quản lý mẫu SMS,
+38,Tra cứu danh sách mẫu SMS,Quản trị viên hệ thống
+39,Quản lý mẫu SMS/ thông báo hệ thống,Quản trị viên hệ thống
+X,Cấu hình danh sách câu hỏi thường gặp,
+40,Tra cứu danh sách câu hỏi thường gặp,Tất cả người dùng
+41,Quản lý danh sách câu hỏi thường gặp,Quản trị viên hệ thống
+XI,Danh mục phân loại theo lĩnh vực giải trình,
+42,Tra cứu danh sách phân loại theo lĩnh vực giải trình,Tất cả người dùng
+43,Quản lý danh sách phân loại theo lĩnh vực giải trình,Quản trị viên hệ thống
+XII,Danh mục loại người đại diện,
+44,Tra cứu danh sách loại người đại diện,Tất cả người dùng
+45,Quản lý danh sách Loại người đại diện,Quản trị viên hệ thống
+XIII,Danh mục chức vụ,
+46,Tra cứu danh sách chức vụ,Tất cả người dùng
+47,Quản lý danh sách chức vụ,Quản trị viên hệ thống
+XIV,Danh mục Loại cơ quan,
+48,Tra cứu danh sách loại cơ quan,Tất cả người dùng
+49,Quản lý danh sách Loại cơ quan,Quản trị viên hệ thống
+XV,Danh mục ngày nghỉ,
+50,Tra cứu danh sách ngày nghỉ,Quản trị viên hệ thống
+51,Quản lý danh sách ngày nghỉ,Quản trị viên hệ thống
+XVI,Danh mục quốc tịch,
+52,Theo dõi danh sách quốc tịch,Quản trị viên hệ thống
+53,API lấy danh sách quốc tịch ở hệ thống Hệ thống danh mục điện tử dùng chung của các cơ quan nhà nước,Quản trị viên hệ thống
+XVII,Danh mục dân tộc,
+54,Theo dõi danh sách dân tộc,Quản trị viên hệ thống
+55,Lấy danh sách dân tộc ở Hệ thống danh mục điện tử dùng chung của các cơ quan nhà nước,Quản trị viên hệ thống
+XVIII,Danh mục lý do từ chối/ gia hạn,
+56,Tra cứu danh mục lý do từ chối/ gia hạn giải trình,Tất cả người dùng
+57,Quản lý danh mục lý do từ chối/ gia hạn,Quản trị viên hệ thống
+XIX,Dự thảo tin tức,
+58,"Tra cứu danh sách tin tức, hình ảnh, video",Tất cả người dùng
+59,"Quản lý danh sách tin tức, hình ảnh, video",Quản trị viên hệ thống
+XX,Phê duyệt tin tức,
+60,Theo dõi danh sách tin tức cần phê duyệt,Quản trị viên hệ thống
+61,Cấu hình thông tin hiển thị trên màn hình danh sách tin tức cần phê duyệt,Quản trị viên hệ thống
+B,TIẾP NHẬN YÊU CẦU GIẢI TRÌNH,
+I,Các chức năng dùng chung,
+62,Tra cứu thông tin hồ sơ yêu cầu giải trình,Cán bộ tiếp nhận/Cán bộ văn thư
+63,Quản lý thông tin hồ sơ yêu cầu giải trình,Cán bộ tiếp nhận/Cán bộ văn thư
+II,Tạo phiếu yêu cầu giải trình trực tuyến,
+II.1,Tạo yêu cầu giải trình của báo chí,
+64,Tra cứu thông tin yêu cầu giải trình của báo chí,"Cán bộ chuyên môn, Lãnh đạo văn phòng"
+65,Quản lý hồ sơ yêu cầu giải trình của báo chí,"Cán bộ chuyên môn, Lãnh đạo văn phòng"
+66,Nhập thông tin tạo phiếu yêu cầu giải trình của báo chí,"Cán bộ chuyên môn, Lãnh đạo văn phòng"
+II.2,Tạo yêu cầu giải trình theo yêu cầu của cơ quan có thẩm quyền,
+67,Tra cứu thông tin yêu cầu giải trình của cơ quan có thẩm quyền,"Cán bộ chuyên môn, Lãnh đạo văn phòng"
+68,Quản lý hồ sơ yêu cầu giải trình của cơ quan có thẩm quyền,"Cán bộ chuyên môn, Lãnh đạo văn phòng"
+69,Nhập thông tin tạo phiếu yêu cầu giải trình của cơ quan có thẩm quyền,"Cán bộ chuyên môn, Lãnh đạo văn phòng"
+III,Gửi yêu cầu giải trình,
+70,Nhập thông tin tạo phiếu yêu cầu giải trình,Người dân/ CBCCVC/ Người đứng đầu doanh nghiệp/ Người đứng đầu cơ quan
+71,Tra cứu văn bản quyết định qua trục VBQG,Người dân/ CBCCVC/ Người đứng đầu doanh nghiệp/ Người đứng đầu cơ quan
+72,"Tải lên tài liệu, bằng chứng kèm theo",Người dân/ CBCCVC/ Người đứng đầu doanh nghiệp/ Người đứng đầu cơ quan
+73,Tạo văn bản cử người đại diện theo bản mẫu,Người dân/ CBCCVC/ Người đứng đầu doanh nghiệp/ Người đứng đầu cơ quan
+74,Gửi yêu cầu giải trình,"Người dân/ CBCCVC/ Người đứng đầu doanh nghiệp/ Người đứng đầu cơ quan, Hệ thống"
+75,Rút yêu cầu giải trình đã gửi,Người dân/ CBCCVC/ Người đứng đầu doanh nghiệp/ Người đứng đầu cơ quan
+76,Theo dõi trạng thái phiếu yêu cầu sau khi gửi,Người dân/ CBCCVC/ Người đứng đầu doanh nghiệp/ Người đứng đầu cơ quan
+IV,Tiếp nhận yêu cầu giải trình trực tuyến,
+IV.1,Tiếp nhận trực tiếp qua hệ thống theo cá nhân,
+77,Tra cứu thông tin yêu cầu giải trình trực tuyến,Cán bộ tiếp nhận/Cán bộ văn thư
+78,Theo dõi tiến độ yêu cầu giải trình,Cán bộ tiếp nhận/Cán bộ văn thư
+79,Quản lý hồ sơ yêu cầu giải trình trực tuyến,Cán bộ tiếp nhận/Cán bộ văn thư
+IV.2,Tiếp nhận trực tiếp qua hệ thống theo cơ quan tổ chức,
+80,Tra cứu thông tin yêu cầu giải trình của cơ quan tổ chức,Cán bộ tiếp nhận/Cán bộ văn thư
+81,Theo dõi tiến độ yêu cầu giải trình của cơ quan tổ chức,Cán bộ tiếp nhận/Cán bộ văn thư
+82,Quản lý hồ sơ yêu cầu giải trình của cơ quan tổ chức,Cán bộ tiếp nhận/Cán bộ văn thư
+V,Tiếp nhận yêu cầu giải trình bằng văn bản,
+V.1,Tiếp nhận tại bộ phận một cửa,
+83,Tra cứu thông tin yêu cầu giải trình tiếp nhận trực tiếp,Cán bộ tiếp nhận/Cán bộ văn thư
+84,Quản lý hồ sơ yêu cầu giải trình tiếp nhận trực tiếp,Cán bộ tiếp nhận/Cán bộ văn thư
+85,Xác thực người yêu cầu qua CCCD/Hộ chiếu,Cán bộ tiếp nhận/Cán bộ văn thư
+86,Số hóa văn bản giải trình,Cán bộ tiếp nhận/Cán bộ văn thư
+87,Tạo phiếu yêu cầu giải trình theo mẫu,Cán bộ tiếp nhận/Cán bộ văn thư
+88,Tạo giấy biên nhận tự động,Hệ thống
+V.2,Kiểm tra trùng lặp,
+89,Tự động đối chiếu và cảnh báo hồ sơ trùng lặp,Hệ thống
+90,Đề xuất cung cấp văn bản giải trình đã có,Cán bộ văn thư/ Cán bộ tiếp nhận
+VI,Điều phối xử lý yêu cầu giải trình,
+91,Trình duyệt lãnh đạo văn phòng xin ý kiến về việc chuyển phiếu cho lãnh đạo CM,Cán bộ văn thư/ Cán bộ tiếp nhận
+92,Gửi phiếu yêu cầu giải trình lên lãnh đạo cấp trên,Lãnh đạo văn phòng
+93,Gửi phiếu yêu cầu giải trình đến đơn vị chuyên môn,Cán bộ văn thư/ Cán bộ tiếp nhận
+VII,Hướng dẫn bổ sung yêu cầu giải trình,
+94,Tra cứu thông tin yêu cầu bổ sung,Cán bộ chuyên môn
+95,Quản lý thông tin yêu cầu bổ sung,Cán bộ chuyên môn
+96,Soạn thảo thông báo hướng dẫn bổ sung,Cán bộ chuyên môn
+97,Gửi thông báo hướng dẫn bổ sung cho người yêu cầu,"Cán bộ chuyên môn, Hệ thống"
+98,Nhận bổ sung thông tin từ người yêu cầu,"Cán bộ chuyên môn, Hệ thống"
+99,Theo dõi thời hạn bổ sung yêu cầu,"Cán bộ chuyên môn, Hệ thống"
+VIII,Từ chối yêu cầu giải trình,
+100,Tra cứu thông tin yêu cầu từ chối giải trình,Cán bộ chuyên môn
+101,Quản lý thông tin yêu cầu từ chối giải trình,Cán bộ chuyên môn
+102,Từ chối yêu cầu giải trình kèm lý do,Cán bộ chuyên môn
+103,Gửi thông báo từ chối cho người yêu cầu,Cán bộ chuyên môn
+IX,Thông báo đã tiếp nhận yêu cầu giải trình,
+104,Tra cứu thông báo đã tiếp nhận yêu cầu giải trình,Cán bộ văn thư/ Cán bộ tiếp nhận
+105,Quản lý thông báo đã tiếp nhận yêu cầu giải trình,Cán bộ văn thư/ Cán bộ tiếp nhận
+106,Tạo thông báo đã tiếp nhận yêu cầu giải trình theo mẫu,Hệ thống
+C,THỰC HIỆN GIẢI TRÌNH,
+I,Phân công người thực hiện giải trình,
+107,Phê duyệt chuyển tiếp phiếu yêu cầu giải trình,Lãnh đạo đơn vị CM
+108,Từ chối chuyển tiếp phiếu yêu cầu giải trình,Lãnh đạo đơn vị CM
+109,Tra cứu thông tin phân công giải trình,Lãnh đạo đơn vị CM
+110,Quản lý thông tin phân công giải trình,Lãnh đạo đơn vị CM
+111,Phân công cán bộ chuyên môn xử lý giải trình,Lãnh đạo đơn vị CM
+112,Tiếp nhận và kiểm tra điều kiện tiếp nhận của phiếu yêu cầu giải trình được phân công,Cán bộ chuyên môn
+113,Gửi lại tham mưu khi yêu cầu không nằm trong phạm vi giải trình,Cán bộ chuyên môn
+114,Kiểm tra và gửi lại tham mưu cho lãnh đạo cấp trên,Lãnh đạo đơn vị CM
+115,Từ chối nhiệm vụ được phân công,Cán bộ chuyên môn
+116,Quản lý quyết định phân công giải trình,Lãnh đạo đơn vị CM
+117,Thiết lập thời hạn xử lý giải trình,"Lãnh đạo đơn vị CM, Hệ thống"
+118,Quản lý chuyển giao công việc khi cán bộ vắng mặt,Lãnh đạo đơn vị CM
+II,Lập kế hoạch giải trình,
+119,Tra cứu thông tin kế hoạch giải trình,Cán bộ chuyên môn
+120,Quản lý thông tin kế hoạch giải trình,Cán bộ chuyên môn
+121,Lập kế hoạch giải trình theo bản mẫu,Cán bộ chuyên môn
+122,Chọn đội nhóm thực hiện kế hoạch giải trình,Cán bộ chuyên môn
+123,Trình duyệt kế hoạch giải trình,Cán bộ chuyên môn
+III,"Thu thập thông tin, tài liệu giải trình",
+III.1,Thu thập từ hồ sơ nội bộ,
+124,Tra cứu thông tin tài liệu thu thập từ hồ sơ nội bộ và trên hệ thống QLVB,Cán bộ chuyên môn
+125,Quản lý thông tin tài liệu hồ sơ nội bộ và trên hệ thống QLVB liên quan đến giải trình,Cán bộ chuyên môn
+III.2,Thu thập qua phối hợp đơn vị khác,
+126,Tra cứu thông tin yêu cầu phối hợp giải trình,Cán bộ chuyên môn
+127,Quản lý thông tin yêu cầu phối hợp giải trình,Cán bộ chuyên môn
+128,Soạn thảo và trình duyệt yêu cầu phối hợp giải trình,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+129,Ký số văn bản bằng usb token của Ban cơ yếu trên yêu cầu phối hợp giải trình,Lãnh đạo đơn vị CM
+130,Ký số văn bản bằng sim PKI của Ban cơ yếu trên yêu cầu phối hợp giải trình,Lãnh đạo đơn vị CM
+131,Ký nháy văn bản bằng sim PKI của Ban cơ yếu trên yêu cầu phối hợp giải trình,Lãnh đạo đơn vị CM
+132,Ký nháy văn bản bằng USB token của Ban cơ yếu trên yêu cầu phối hợp giải trình,Lãnh đạo đơn vị CM
+133,Theo dõi phản hồi của đơn vị phối hợp,Cán bộ chuyên môn
+134,Tiếp nhận phản hồi phối hợp giải trình,Cán bộ chuyên môn
+III.3,Thu thập từ tài liệu người yêu cầu cung cấp,
+135,Tra cứu tài liệu người yêu cầu cung cấp,Cán bộ chuyên môn
+136,Quản lý tài liệu người yêu cầu cung cấp,Cán bộ chuyên môn
+IV,Tổ chức giải trình trực tiếp,
+IV.1,Xử lý yêu cầu phê duyệt hình thức làm việc,
+137,Trình duyệt hình thức làm việc với người yêu cầu,Cán bộ chuyên môn
+IV.2,Tổ chức làm việc với người yêu cầu,
+138,Tra cứu thông tin giải trình trực tiếp,Cán bộ chuyên môn
+139,Quản lý thông tin giải trình trực tiếp,Cán bộ chuyên môn
+140,Đề xuất tổ chức giải trình trực tiếp với nội dung đơn giản,Cán bộ chuyên môn
+141,Gửi thư mời người yêu cầu tham dự giải trình trực tuyến,Cán bộ chuyên môn
+142,Tổ chức giải trình trực tuyến qua nền tảng họp trực tuyến,Cán bộ chuyên môn
+143,Gửi thư mời người yêu cầu tham dự giải trình trực tiếp,Cán bộ chuyên môn
+144,Lập biên bản giải trình trực tiếp,Cán bộ chuyên môn
+145,Quản lý tài liệu biên bản giải trình trực tiếp,Cán bộ chuyên môn
+V,Gia hạn thời hạn giải trình,
+146,Tra cứu thông tin gia hạn giải trình,Cán bộ chuyên môn
+147,Quản lý thông tin tài liệu gia hạn giải trình,Cán bộ chuyên môn
+148,Soạn thảo và trình duyệt gia hạn giải trình,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+149,Ký số văn bản bằng usb token của Ban cơ yếu trên văn bản gia hạn giải trình,Lãnh đạo đơn vị CM
+150,Ký số văn bản bằng sim PKI của Ban cơ yếu trên văn bản gia hạn giải trình,Lãnh đạo đơn vị CM
+151,Ký nháy văn bản bằng sim PKI của Ban cơ yếu trên văn bản gia hạn giải trình,Lãnh đạo đơn vị CM
+152,Ký nháy văn bản bằng USB token của Ban cơ yếu trên văn bản gia hạn giải trình,Lãnh đạo đơn vị CM
+153,Gửi thông báo gia hạn cho người yêu cầu,Cán bộ chuyên môn
+154,Cập nhật thời hạn mới sau gia hạn,Hệ thống
+VI,"Tạm đình chỉ, đình chỉ giải trình",
+VI.1,Tạm đình chỉ giải trình,
+155,Tra cứu thông tin tạm đình chỉ giải trình,Cán bộ chuyên môn
+156,Quản lý thông tin tạm đình chỉ giải trình,Cán bộ chuyên môn
+157,Soạn thảo và trình duyệt quyết định tạm đình chỉ,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+158,Ký số văn bản bằng usb token của Ban cơ yếu trên văn bản quyết định tạm đình chỉ,Lãnh đạo đơn vị CM
+159,Ký số văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn quyết định tạm đình chỉ,Lãnh đạo đơn vị CM
+160,Ký nháy văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn quyết định tạm đình chỉ,Lãnh đạo đơn vị CM
+161,Ký nháy văn bản bằng USB token của Ban cơ yếu trên văn bẳn quyết định tạm đình chỉ,Lãnh đạo đơn vị CM
+162,Gửi thông báo tạm đình chỉ cho người yêu cầu hoặc người đại diện,"Cán bộ chuyên môn, Hệ thống"
+163,Quản lý tài liệu quyết định tạm đình chỉ,Cán bộ chuyên môn
+VI.2,Khôi phục giải trình sau tạm đình chỉ,
+164,Tra cứu thông tin khôi phục giải trình,Cán bộ chuyên môn
+165,Quản lý thông tin khôi phục giải trình,Cán bộ chuyên môn
+166,Soạn thảo và trình duyệt quyết định khôi phục giải trình,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+167,Ký số văn bản bằng usb token của Ban cơ yếu trên văn bản quyết định khôi phục giải trình,Lãnh đạo đơn vị CM
+168,Ký số văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn quyết định khôi phục giải trình,Lãnh đạo đơn vị CM
+169,Ký nháy văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn quyết định khôi phục giải trình,Lãnh đạo đơn vị CM
+170,Ký nháy văn bản bằng USB token của Ban cơ yếu trên văn bẳn quyết định khôi phục giải trình,Lãnh đạo đơn vị CM
+VI.3,Đình chỉ giải trình,
+171,Tra cứu thông tin đình chỉ giải trình,Cán bộ chuyên môn
+172,Quản lý thông tin tài liệu đình chỉ giải trình,Cán bộ chuyên môn
+173,Soạn thảo và trình duyệt quyết định đình chỉ,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+174,Ký số văn bản bằng usb token của Ban cơ yếu trên văn bản quyết định đình chỉ,Lãnh đạo đơn vị CM
+175,Ký số văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn quyết định đình chỉ,Lãnh đạo đơn vị CM
+176,Ký nháy văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn quyết định đình chỉ,Lãnh đạo đơn vị CM
+177,Ký nháy văn bản bằng USB token của Ban cơ yếu trên văn bẳn quyết định đình chỉ,Lãnh đạo đơn vị CM
+178,Gửi thông báo đình chỉ cho người yêu cầu,Cán bộ chuyên môn
+D,QUẢN LÝ VÀ BAN HÀNH VĂN BẢN GIẢI TRÌNH,
+I,Quản lý văn bản giải trình,
+179,Lập dự thảo văn bản giải trình,Cán bộ chuyên môn
+180,Tra cứu thông tin dự thảo văn bản giải trình,Cán bộ chuyên môn
+181,Quản lý thông tin dự thảo văn bản giải trình,Cán bộ chuyên môn
+182,Tải lên file dự thảo văn bản giải trình theo bản mẫu,Cán bộ chuyên môn
+II,Lấy ý kiến nội bộ về dự thảo,
+183,Tra cứu thông tin lấy ý kiến dự thảo,Cán bộ chuyên môn
+184,Quản lý thông tin lấy ý kiến dự thảo,Cán bộ chuyên môn
+185,Gửi dự thảo lấy ý kiến đơn vị liên quan,Cán bộ chuyên môn
+186,Cảnh báo đơn vị chưa góp ý theo thời hạn lấy ý kiến,Hệ thống
+III,Phê duyệt và ký số văn bản giải trình,
+187,Tra cứu thông tin phê duyệt văn bản giải trình,Cán bộ chuyên môn
+188,Quản lý thông tin phê duyệt văn bản giải trình,Cán bộ chuyên môn
+189,Soạn thảo và trình duyệt dự thảo cho lãnh đạo đơn vị CM,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+190,Phê duyệt dự thảo văn bản giải trình,Lãnh đạo đơn vị CM
+191,Soạn thảo và trình duyệt văn bản giải trình chính thức,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+192,Ký số văn bản bằng usb token của Ban cơ yếu trên văn bản giải trình chính thức,Lãnh đạo đơn vị CM
+193,Ký số văn bản bằng sim PKI của Ban cơ yếu trên văn bản giải trình chính thức,Lãnh đạo đơn vị CM
+194,Ký nháy văn bản bằng sim PKI của Ban cơ yếu trên văn bản giải trình chính thức,Lãnh đạo đơn vị CM
+195,Ký nháy văn bản bằng USB token của Ban cơ yếu trên văn bản giải trình chính thức,Lãnh đạo đơn vị CM
+196,Tự động gửi văn bản di qua trục VBQG,Hệ thống
+IV,Thay thế văn bản giải trình,
+197,Đề xuất thay thế văn bản giải trình,Cán bộ chuyên môn
+198,Soạn thảo và trình duyệt dự thảo văn bản giải trình thay thế,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+199,Phê duyệt dự thảo văn bản giải trình thay thế,Lãnh đạo đơn vị CM
+200,Soạn thảo và trình duyệt văn bản giải trình thay thế,Cán bộ chuyên môn
+201,Phê duyệt văn bản giải trình thay thế,Lãnh đạo đơn vị CM
+202,Ký số văn bản bằng usb token của Ban cơ yếu trên văn bản thay thế giải trình,Lãnh đạo đơn vị CM
+203,Ký số văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn thay thế giải trình,Lãnh đạo đơn vị CM
+204,Ký nháy văn bản bằng sim PKI của Ban cơ yếu trên văn bẳn thay thế giải trình,Lãnh đạo đơn vị CM
+205,Ký nháy văn bản bằng USB token của Ban cơ yếu trên văn bẳn thay thế giải trình,Lãnh đạo đơn vị CM
+206,Theo dõi lịch sử thay thế văn bản giải trình,"Cán bộ chuyên môn, Lãnh đạo đơn vị CM"
+207,Thông báo văn bản giải trình được thay thế cho NYC,Hệ thống
+E,CÔNG KHAI KẾT QUẢ GIẢI TRÌNH,
+I,Phân loại nội dung công khai,
+208,Tra cứu thông tin phân loại công khai,Cán bộ văn thư/ Cán bộ tiếp nhận
+209,Phân loại mức độ công khai văn bản giải trình,Cán bộ văn thư/ Cán bộ tiếp nhận
+II,Xử lý ẩn danh và che giấu thông tin nhạy cảm,
+210,Tra cứu thông tin ẩn danh,Cán bộ văn thư/ Cán bộ tiếp nhận
+211,Quản lý thông tin ẩn danh,Cán bộ văn thư/ Cán bộ tiếp nhận
+212,Tạo và trình bản công khai từ bản gốc với phần ẩn danh,Cán bộ văn thư/ Cán bộ tiếp nhận
+213,Phê duyệt bản công khai từ bản gốc với phần ẩn danh,Lãnh đạo văn phòng
+III,Ban hành văn bản giải trình,
+214,Tra cứu thông tin văn bản giải trình đã ban hành,Cán bộ văn thư/ Cán bộ tiếp nhận
+215,Quản lý thông tin văn bản giải trình đã ban hành,Cán bộ văn thư/ Cán bộ tiếp nhận
+216,Trình duyệt công khai văn bản,"Cán bộ văn thư/ Cán bộ tiếp nhận, Lãnh đạo văn phòng"
+IV,Gửi văn bản giải trình cho người yêu cầu,
+217,Tra cứu thông tin gửi văn bản giải trình,Cán bộ văn thư/ Cán bộ tiếp nhận
+218,Gửi văn bản giải trình cho người yêu cầu,Cán bộ văn thư/ Cán bộ tiếp nhận
+219,Trình gửi văn bản giải trình cho người yêu cầu,Cán bộ văn thư/ Cán bộ tiếp nhận
+220,Phê duyệt gửi văn bản giải trình cho người yêu cầu,Lãnh đạo đơn vị chuyên môn
+F,CỔNG THÔNG TIN CÔNG KHAI KẾT QUẢ GIẢI TRÌNH,
+I,Phân hệ Cổng thông tin ,
+221,Tra cứu thông tin cổng công khai,Cán bộ văn thư/ Cán bộ tiếp nhận
+222,Quản lý thông tin cổng công khai,Cán bộ văn thư/ Cán bộ tiếp nhận
+223,Trình duyệt đăng tải công khai,"Cán bộ văn thư/ Cán bộ tiếp nhận, Lãnh đạo văn phòng"
+224,Công khai văn bản trên cổng thông tin CSDLQG về thực hiện TNGT,Cán bộ văn thư/ Cán bộ tiếp nhận
+225,Công khai văn bản trên cổng thông tin điện tử/ trang thông tin điện tử của đơn vị,Cán bộ văn thư/ Cán bộ tiếp nhận
+II,"Hướng dẫn, hỗ trợ",
+226,Theo dõi và tra cứu danh sách câu hỏi hỗ trợ trên hệ thống,Công dân
+227,Theo dõi chi tiết tin tức trong hệ thống,Công dân
+III,Quản lý quyền truy cập công khai,
+228,Quản lý quyền xem theo mức độ công khai,Quản trị viên hệ thống
+229,Quản lý lượt truy cập công khai,Quản trị viên hệ thống
+G,TRA CỨU TRẠNG THÁI VÀ KẾT QUẢ GIẢI TRÌNH,
+I,Tra cứu thông tin yêu cầu cá nhân,
+230,Tra cứu yêu cầu giải trình của bản thân,Người yêu cầu
+231,Quản lý yêu cầu giải trình của bản thân,Người yêu cầu
+232,Tra cứu trạng thái mỗi yêu cầu giải trình,Người yêu cầu
+233,Tra cứu tiến độ xử lý chi tiết theo quy trình dạng trực quan hóa các bước hồ sơ đang đi qua.,Người yêu cầu; Cán bộ tiếp nhận; cán bộ chuyên môn; Lãnh đạo phê duyệt
+234,Nhận thông báo về kết quả xử lý qua email/sms,Người yêu cầu; Cán bộ tiếp nhận; cán bộ chuyên môn
+235,Tra cứu văn bản giải trình đã ban hành,Người yêu cầu; Cán bộ tiếp nhận; cán bộ chuyên môn
+236,Tạo phản hồi trực tiếp từ màn hình chi tiết kết quả tra cứu.,Người yêu cầu
+II,Tra cứu công khai (không cần đăng nhập),
+237,Tra cứu kết quả giải trình công khai theo điều kiện lọc,Công dân; Người yêu cầu
+238,Kiểm tra chi tiết kết quả giải trình công khai,Công dân; Người yêu cầu
+III,Lịch sử thông báo cho người yêu cầu,
+239,Tra cứu lịch sử thông báo cho người yêu cầu...,Cán bộ tiếp nhận
+240,Quản lý lịch sử thông báo,Người yêu cầu; Cán bộ tiếp nhận; cán bộ chuyên môn; Lãnh đạo phê duyệt
+H,QUẢN LÝ PHẢN HỒI VỀ GIẢI TRÌNH,
+I,Tiếp nhận phản hồi về giải trình,
+241,Tra cứu thông tin phản hồi về giải trình,Người yêu cầu; Cán bộ tiếp nhận
+242,Quản lý thông tin phản hồi về giải trình,Người yêu cầu
+243,Quản lý tiếp nhận phản hồi,"Người yêu cầu, Cán bộ tiếp nhận"
+II,Phân loại phản hồi,
+244,Tra cứu phân loại phản hồi,Cán bộ tiếp nhận
+245,Quản lý phân loại phản hồi,cán bộ tiếp nhận
+III,Chuyển phản hồi đến cơ quan có thẩm quyền,
+246,Tra cứu thông tin chuyển phản hồi,Cán bộ tiếp nhận
+247,Quản lý thông tin chuyển phản hồi,Cán bộ tiếp nhận
+IV,Theo dõi xử lý phản hồi,
+248,Tra cứu tiến độ xử lý phản hồi,Cán bộ tiếp nhận
+249,Quản lý tiến độ xử lý phản hồi,Cán bộ tiếp nhận; Cán bộ chuyên môn; Lãnh đạo phê duyệt
+V,Cập nhật kết quả giải quyết phản hồi,
+250,Tra cứu kết quả giải quyết phản hồi,Cán bộ tiếp nhận; cán bộ chuyên môn
+251,Quản lý kết quả giải quyết phản hồi,Cán bộ tiếp nhận; cán bộ chuyên môn; Lãnh đạo phê duyệt
+I,ĐÁNH GIÁ THỰC HIỆN TRÁCH NHIỆM GIẢI TRÌNH,
+I,Quản lý bộ tiêu chí đánh giá,
+252,Tra cứu thông tin bộ tiêu chí đánh giá,Cán bộ TTCP/Cán bộ Bộ/ngành
+253,Quản lý thông tin bộ tiêu chí đánh giá,Quản trị hệ thống TTCP
+II,Thẩm định nội dung đánh giá,
+254,Tiếp nhận hồ sơ đánh giá,Cán bộ TTCP
+255,Thẩm định các nội dung đánh giá,Cán bộ TTCP
+256,Yêu cầu hoàn thiện hồ sơ đánh giá,Cán bộ TTCP
+257,Trình phê duyệt kết quả đánh giá,Cán bộ TTCP
+258,Thông báo kết quả đánh giá,Cán bộ TTCP
+III,Thực hiện đánh giá,
+III.1,Quản lý chu kỳ đánh giá,
+259,Quản lý chu kỳ đánh giá,Quản trị hệ thống TTCP
+260,Quản lý tiêu chí đánh giá,Quản trị hệ thống TTCP
+III.2,Quản lý phiếu đánh giá,
+III.2.1,Xây dựng phiếu đánh giá TTCP,
+261,Khởi tạo phiếu đánh giá,Quản trị hệ thống TTCP
+262,Gửi phiếu đánh giá cho Bộ/ngành,Quản trị hệ thống TTCP
+III.2.2,Tiếp nhận phiếu đánh giá và phản hồi đánh giá của TTCP,
+263,Tiếp nhận phiếu đánh giá,Cán bộ Bộ/ngành
+264,Theo dõi trạng thái xử lý phiếu,Cán bộ TTCP/ Quản trị hệ thống TTCP
+265,Xây dựng chỉ tiêu đánh giá chi tiết,Cán bộ Bộ/ngành/Cán bộ TTCP
+266,Hoàn thiện phiếu đánh giá,Cán bộ Bộ/ngành/Cán bộ TTCP
+267,Trình duyệt phiếu đánh giá,Cán bộ Bộ/ngành
+268,Phê duyệt phiếu đánh giá của đơn vị,Lãnh đạo Bộ/ngành
+269,Gửi phiếu đánh giá đến TTCP,Lãnh đạo Bộ/ngành
+III.2.3,TTCP kiểm tra đánh giá thông tin Bộ/ngành gửi,
+270,Kiểm tra nội dung phiếu đánh giá,Cán bộ TTCP
+271,Yêu cầu bổ sung hoặc chỉnh sửa phiếu,Cán bộ TTCP
+272,Trình phiếu đánh giá,Cán bộ TTCP
+273,Phê duyệt phiếu đánh giá của đơn vị gửi lên TTCP,Lãnh đạo TTCP
+274,Kích hoạt theo dõi đánh giá,Quản trị hệ thống TTCP
+III.3,Quản lý tiến độ,
+275,Cập nhật dữ liệu đánh giá,Cán bộ Bộ/ngành
+276,Tính toán kết quả đánh giá,Hệ thống
+IV,Quản lý báo cáo kết quả đánh giá kết quả giải trình,
+IV.1,Báo cáo gửi tới TTCP,
+277,Quản lý báo cáo tổng hợp kết quả giải trình,Cán bộ Bộ/ngành
+278,Trình duyệt báo cáo tổng hợp kết quả giải trình,Cán bộ Bộ/ngành
+279,Phê duyệt báo cáo kết quả và gửi báo cáo tới TTCP,Lãnh đạo bộ/ ngành
+IV.2,Tiếp nhận và xử lý báo cáo từ các Bộ/ngành,
+280,Tiếp nhận báo cáo kết quả giải trình từ Bộ/ngành,Cán bộ TTCP
+281,Kiểm tra đối chiếu báo cáo kết quả giải trình với tiêu chí của TTCP,Cán bộ TTCP
+282,Chỉnh sửa và hoàn thiện báo cáo đánh giá kết quả giải trình,Cán bộ TTCP
+283,Đính kèm tài liệu báo cáo đánh giá kết qủa giải trình,Cán bộ TTCP
+284,Trình báo cáo kết quả giải trình của Bộ/ngành,Cán bộ TTCP
+285,Ký duyệt báo cáo kết quả giải trình,Lãnh đạo TTCP
+286,Xuất báo cáo kết quả giải trình,Quản trị hệ thống TTCP
+287,Quản lý thông báo hệ thống,Hệ thống
+J,ĐÁP ỨNG YÊU CẦU AN TOÀN CƠ BẢN CỦA HỆ THỐNG,
+I,Phân quyền truy cập,
+288,Tra cứu thông tin phân quyền,Quản trị viên hệ thống
+289,Quản lý phân quyền theo vai trò và quản lý phân quyền theo thuộc tính,Quản trị viên hệ thống
+290,Phê duyệt phân quyền truy cập dữ liệu Mật,Lãnh đạo đơn vị
+291,Quản lý phân quyền có thời hạn,Quản trị viên hệ thống
+II,Nhật ký hệ thống,
+292,Tra cứu thông tin lịch sử hoạt động hệ thống,Quản trị viên hệ thống
+293,Quản lý lịch sử đăng nhập,Quản trị viên hệ thống
+294,Quản lý lịch sử phân quyền tài khoản,Quản trị viên hệ thống
+295,Quản lý lịch sử cấu hình tham số,Quản trị viên hệ thống
+296,Quản lý lịch sử đồng bộ dữ liệu về hệ thống quản lý tập trung,Quản trị viên hệ thống
+297,Quản lý lịch sử sao lưu dữ liệu,Quản trị viên hệ thống
+298,Quản lý lịch sử gửi thông báo,Quản trị viên hệ thống
+299,Quản lý lịch sử chỉnh sửa hồ sơ giải trình,Quản trị viên hệ thống
+300,Quản lý lịch sử chỉnh sửa văn bản giải trình,Quản trị viên hệ thống
+301,Quản lý lịch sử truy cập hồ sơ công khai,Quản trị viên hệ thống
+302,Quản lý lịch sử ký số tài liệu,Quản trị viên hệ thống
+303,Quản lý lịch sử cấu hình danh mục dữ liệu,Quản trị viên hệ thống
+304,Quản lý lịch sử số hoá tài liệu,Quản trị viên hệ thống
+305,Quản lý lịch sử tích hợp hệ thống,Quản trị viên hệ thống
+306,Quản lý lịch sử chia sẻ dữ liệu,Quản trị viên hệ thống
+307,Quản lý lịch sử tác động,Quản trị viên hệ thống
+III,Sao lưu và dự phòng,
+308,Thiết lập chính sách sao lưu dự phòng,Quản trị viên hệ thống
+309,Sao lưu tự động theo lịch,Quản trị viên hệ thống
+310,Quản lý chính sách lưu trữ nhật ký tác động hệ thống,Quản trị viên hệ thống
+311,Tự động sao lưu dự phòng,Quản trị viên hệ thống
+312,Sao lưu thủ công khi cần,Quản trị viên hệ thống
+313,Khôi phục dữ liệu từ bản sao lưu,Quản trị viên hệ thống
+314,Kiểm tra khả năng khôi phục định kỳ,Quản trị viên hệ thống
+K,ĐÁP ỨNG YÊU CẦU DỮ LIỆU HỆ THỐNG,
+315,Tra cứu danh mục cơ quan có trách nhiệm giải trình,Quản trị viên hệ thống
+316,Quản lý danh mục cơ quan có trách nhiệm giải trình,Cán bộ chuyên môn
+317,Tra cứu danh mục lĩnh vực giải trình,Quản trị viên hệ thống
+318,Quản lý danh mục lĩnh vực giải trình,Cán bộ chuyên môn
+319,Tra cứu danh mục loại yêu cầu giải trình,Quản trị viên hệ thống
+320,Quản lý danh mục loại yêu cầu giải trình,Cán bộ chuyên môn
+321,Tra cứu danh mục loại nội dung giải trình,Quản trị viên hệ thống
+322,Quản lý danh mục loại nội dung giải trình,Cán bộ chuyên môn
+323,Tra cứu danh mục phạm vi giải trình,Quản trị viên hệ thống
+324,Quản lý danh mục phạm vi giải trình,Cán bộ chuyên môn
+325,Tra cứu danh mục hình thức giải trình,Quản trị viên hệ thống
+326,Quản lý danh mục hình thức giải trình,Cán bộ chuyên môn
+327,Tra cứu danh mục trạng thái yêu cầu giải trình,Quản trị viên hệ thống
+328,Quản lý danh mục trạng thái yêu cầu giải trình,Cán bộ chuyên môn
+329,Tra cứu danh mục trạng thái hồ sơ giải trình,Quản trị viên hệ thống
+330,Quản lý danh mục trạng thái hồ sơ giải trình,Cán bộ chuyên môn
+331,Tra cứu danh mục loại văn bản giải trình,Quản trị viên hệ thống
+332,Quản lý danh mục loại văn bản giải trình,Cán bộ chuyên môn
+333,Tra cứu danh mục mức độ công khai,Quản trị viên hệ thống
+334,Quản lý danh mục mức độ công khai,Cán bộ chuyên môn
+335,Tra cứu danh mục ngạch công chức và chức danh,Quản trị viên hệ thống
+336,Tra cứu danh mục đơn vị hành chính cấp Tỉnh,Quản trị viên hệ thống
+337,Tra cứu danh mục đơn vị hành chính cấp Xã,Quản trị viên hệ thống
+338,Tra cứu danh mục ngành lĩnh vực công tác,Quản trị viên hệ thống
+339,Quản lý danh mục ngành lĩnh vực công tác,Cán bộ chuyên môn
+340,Tra cứu danh mục mẫu thông báo,Quản trị viên hệ thống
+341,Quản lý danh mục mẫu thông báo,Cán bộ chuyên môn
+342,Tra cứu danh mục phương tiện truyền thông,Quản trị viên hệ thống
+343,Tra cứu danh mục kiểu tệp đính kèm,Quản trị viên hệ thống
+344,Quản lý danh mục kiểu tệp đính kèm,Cán bộ chuyên môn
+345,Tra cứu danh mục loại tệp được phép tải lên,Quản trị viên hệ thống
+346,Quản lý danh mục loại tệp được phép tải lên,Cán bộ chuyên môn
+347,Tra cứu danh mục tham số thời hạn xử lý,Quản trị viên hệ thống
+348,Quản lý danh mục tham số thời hạn xử lý,Cán bộ chuyên môn
+349,Tra cứu danh mục tham số thời hạn cảnh báo,Quản trị viên hệ thống
+350,Quản lý danh mục tham số thời hạn cảnh báo,Cán bộ chuyên môn
+L,ĐÁP ỨNG VỀ TÍCH HỢP HỆ THỐNG,
+I,Quản lý tích hợp hệ thống cần truy vấn dữ liệu từ CSDLQG về TNGT,
+351,Tra cứu Hệ thống khác cần truy vấn dữ liệu từ CSDLQG về TNGT,Quản trị viên hệ thống
+352,Quản lý tích hợp Hệ thống khác cần truy vấn dữ liệu từ CSDLQG về TNGT,Quản trị viên hệ thống
+353,Nhận yêu cầu đồng bộ dữ liệu từ hệ thống cần truy vấn thông qua API Gateway,Hệ thống
+354,Xác thực hệ thống truy vấn qua token thông qua API Gateway,Hệ thống
+355,Phân quyền truy vấn dữ liệu theo phạm vi,Quản trị viên hệ thống
+356,Xuất báo cáo tích hợp hệ thống truy vấn,Quản trị viên hệ thống
+II,Quản lý tích hợp hệ thống cần đẩy dữ liệu giải trình sang CSDLQG về TNGT,
+357,Tra cứu hệ thống cần đẩy dữ liệu sang CSDLQG về TNGT,Quản trị viên hệ thống
+358,Quản lý tích hợp hệ thống cần đẩy dữ liệu sang CSDLQG về TNGT,Quản trị viên hệ thống
+359,Nhận dữ liệu từ các hệ thống cần đẩy dữ liệu qua API,Hệ thống
+III,Quản lý tích hợp hệ thống tiếp nhận dữ liệu của CSDLQG về TNGT,
+360,Quản lý tích hợp các hệ thống tiếp nhận dữ liệu của CSDLQG về TNGT,Quản trị viên hệ thống
+361,Gửi dữ liệu đến hệ thống tiếp nhận thông qua API Gateway,Hệ thống
+IV,Quản lý Cổng kết nối và kiểm soát truy cập API (API Gateway),
+IV.1,Quản lý Cổng kết nối và kiểm soát truy cập API,
+362,Gửi dữ liệu đến API Gateway,Hệ thống
+363,Nhận dữ liệu từ API Gateway,hệ thống
+364,Quản lý xác thực và phân quyền truy cập API,Quản trị viên hệ thống
+365,Quản lý nhật ký giao dịch API,Quản trị viên hệ thống
+366,Giám sát trạng thái kết nối API,Hệ thống
+367,Đồng bộ danh mục dùng chung qua API Gateway,Quản trị viên hệ thống
+IV.2,Kết nối API với các hệ thống ngoài Thanh tra chính phủ,
+368,API đồng bộ danh mục danh mục cấp đơn vị từ Hệ thống danh mục điện tử dùng chung của các CQNN,Hệ thống danh mục điện tử dùng chung của các CQNN
+369,Quản lý danh mục cấp đơn vị,Quản trị hệ thống
+370,API tra cứu danh mục loại đơn vị từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+371,Quản lý danh mục loại đơn vị,Quản trị hệ thống
+372,API đồng bộ danh mục lĩnh vực công tác từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+373,Quản lý danh mục lĩnh vực công tác,Quản trị hệ thống
+374,API đồng bộ danh mục chức vụ từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+375,Quản lý danh mục chức vụ,Quản trị hệ thống
+376,API đồng bộ danh mục ngạch công chức và chức danh từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+377,Quản lý danh mục ngạch công chức và chức danh,Quản trị hệ thống
+378,API đồng bộ danh mục đơn vị hành chính cấp Tỉnh từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+379,Quản lý danh mục đơn vị hành chính cấp Tỉnh,Quản trị hệ thống
+380,API đồng bộ danh mục đơn vị hành chính cấp Xã từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+381,Quản lý danh mục đơn vị hành chính cấp Xã,Quản trị hệ thống
+382,API đồng bộ danh mục Quốc gia từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+383,Quản lý danh mục Quốc gia,Quản trị hệ thống
+384,API đồng bộ danh mục loại văn bản từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+385,Quản lý danh mục loại văn bản,Quản trị hệ thống
+386,API đồng bộ danh mục phương thức ký số từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN.
+387,Quản lý danh mục phương thức ký số,Quản trị hệ thống
+388,API đồng bộ danh mục cơ quan có thẩm quyền xử lý từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Hệ thống danh mục điện tử dùng chung của các CQNN
+389,Quản lý danh mục cơ quan có thẩm quyền xử lý,Quản trị hệ thống
+390,API đồng bộ danh mục loại tài liệu từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+391,Quản lý danh mục loại tài liệu,Quản trị hệ thống
+392,API đồng bộ danh mục trạng thái xử lý từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+393,Quản lý danh mục trạng thái xử lý,Quản trị hệ thống
+394,API đồng bộ danh mục phương thức thanh tra từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+395,Quản lý danh mục phương thức thanh tra,Quản trị hệ thống
+396,API đồng bộ danh mục kết luận thanh tra từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+397,Quản lý danh mục kết luận thanh tra,Quản trị hệ thống
+398,Tra cứu danh mục quy tắc ứng xử,Quản trị hệ thống
+399,Quản lý danh mục quy tắc ứng xử,Quản trị hệ thống
+400,API đồng bộ danh mục vị trí công tác phải đổi công tác từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+401,Quản lý danh mục vị trí công tác phải đổi công tác,Quản trị hệ thống
+402,"API đồng bộ danh mục thời hạn chuyển đổi vị trí công tác theo ngành, lĩnh vực từ Hệ thống danh mục điện tử dùng chung của các CQNN.",Quản trị hệ thống
+403,"Quản lý danh mục thời hạn chuyển đổi vị trí công tác theo ngành, lĩnh vực",Quản trị hệ thống
+404,API đồng bộ danh mục cấp ủy quản lý từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+405,Quản lý danh mục cấp ủy quản lý,Quản trị hệ thống
+406,API đồng bộ danh mục tổ chức Đảng từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+407,Quản lý danh mục tổ chức Đảng,Quản trị hệ thống
+408,API đồng bộ danh mục phương tiện truyền thông từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+409,Quản lý danh mục phương tiện truyền thông,Quản trị hệ thống
+410,API đồng bộ danh mục tham số cấu hình hệ thống từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+411,Quản lý danh mục tham số cấu hình hệ thống,Quản trị hệ thống
+IV.3,Kết nối API với các hệ thống báo cáo,
+412,API đồng bộ danh các loại báo cáo từ Hệ thống danh mục điện tử dùng chung của các CQNN.,Quản trị hệ thống
+413,Quản lý danh mục các loại báo cáo,Quản trị hệ thống
+414,API đồng bộ danh mục Báo cáo định kỳ,Quản trị hệ thống
+415,Quản lý danh mục Báo cáo định kỳ,Quản trị hệ thống
+416,API đồng bộ danh mục Báo cáo chuyên đề,Quản trị hệ thống
+417,Quản lý danh mục Báo cáo chuyên đề,Quản trị hệ thống
+418,API đồng bộ danh mục Báo cáo đột xuất,Quản trị hệ thống
+419,Quản lý danh mục Báo cáo đột xuất,Quản trị hệ thống
+420,API đồng bộ danh mục Thời gian chốt số liệu,Quản trị hệ thống
+421,Quản lý danh mục Thời gian chốt số liệu,Quản trị hệ thống
+422,API đồng bộ danh mục đối tượng thực hiện báo cáo,Quản trị hệ thống
+423,Quản lý danh mục đối tượng thực hiện báo cáo,Quản trị hệ thống
+IV.4,Kết nối API với các hệ thống nội bộ Thanh tra Chính phủ,
+424,"Kết nối API đến CSDLQG về kiểm soát tài sản, thu nhập qua API Gateway",Hệ thống
+425,"Kết nối API đến CSDLQG về tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo qua API Gateway",Hệ thống
+426,"Kết nối API đến CSDLQG về đánh giá công tác PCTN, lãng phí, tiêu cực qua API Gateway",Hệ thống
+427,Kết nối API đến CSDLQG về thực hiện trách nhiệm giải trình qua API Gateway,Hệ thống
+428,Kết nối API đến Nền tảng số công tác thanh tra qua API Gateway,Hệ thống
+429,Kết nối API đến các Phần mềm dùng chung nội bộ TTCP qua API Gateway,Hệ thống
+430,Kết nối API đến Cổng truy cập tập trung qua API Gateway,Hệ thống
+IV.5,Hệ thống VNeID,
+431,Tra cứu hệ thống tích hợp hệ thống VNeID,Quản trị hệ thống
+432,Quản lý tích hợp hệ thống VNeID,Quản trị hệ thống
+433,API xác thực qua VNeID,Hệ thống VNeID
+434,Ký số qua Dịch vụ chứng thực chữ ký số,Quản trị hệ thống
+435,Quản lý tích hợp Dịch vụ chứng thực chữ ký số,Dịch vụ chứng thực chữ ký số
+IV.6,CSDLQG về dân cư,
+436,Quản lý tích hợp Hệ thống CSDLQG về dân cư,Quản trị hệ thống
+437,Hệ thống CSDLQG về dân cư,Hệ thống CSDLQG về dân cư
+438,API lấy dữ liệu từ Hệ thống CSDLQG về dân cư,Hệ thống CSDLQG về dân cư
+439,"Tra cứu, xác thực thông tin công dân từ CSDLQG về dân cư thông qua API Gateway",Hệ thống
+IV.7,"CSDLQG về cán bộ, công chức",
+440,"Quản lý tích hợp với CSDLQG về cán bộ, công chức",Quản trị hệ thống
+441,"API lấy dữ liệu từ CSDLQG về cán bộ, công chức","CSDLQG về cán bộ, công chức"
+IV.8,CSDLQG về văn bản pháp luật,
+442,Quản lý tích hợp với CSDLQG về văn bản pháp luật,Quản trị hệ thống
+443,API lấy dữ liệu từ CSDLQG về văn bản pháp luật,CSDLQG về văn bản pháp luật
+IV.9,"Nền tảng chia sẻ, điều phối dữ liệu (NDOP)",
+444,"Quản lý tích hợp với Nền tảng chia sẻ, điều phối dữ liệu (NDOP)",Quản trị hệ thống
+445,"API lấy dữ liệu từ Nền tảng chia sẻ, điều phối dữ liệu (NDOP)","Nền tảng chia sẻ, điều phối dữ liệu (NDOP)"
+IV.10,Trục liên thông văn bản quốc gia,
+446,API Gửi văn bản qua Trục liên thông văn bản quốc gia thông qua API Gateway,Hệ thống
+447,API Nhận văn bản từ Trục liên thông văn bản quốc gia thông qua API Gateway,Hệ thống
+448,API Nhận văn bản đã được cấp số và đóng dấu từ Trục liên thông văn bản quốc gia thông qua API Gateway,Hệ thống
+IV.11,Dịch vụ chứng thực chữ ký số,
+449,API Gửi yêu cầu ký số đến dịch vụ chứng thực chữ ký số thông qua API Gateway,Hệ thống
+450,API Nhận kết quả ký số từ dịch vụ chứng thực chữ ký số thông qua API Gateway,Hệ thống
+IV.12,Dịch vụ AI-OCR,
+451,API Gửi tài liệu scan đến dịch vụ AI-OCR thông qua API Gateway,Hệ thống
+452,API Nhận kết quả trích xuất văn bản từ dịch vụ AI-OCR thông qua API Gateway,Hệ thống
+IV.13,Dịch vụ Báo cáo thông minh & Phân tích dữ liệu,
+453,API Gửi dữ liệu đến dịch vụ Báo cáo thông minh & Phân tích dữ liệu thông qua API Gateway,Hệ thống
+454,API Nhận kết quả phân tích từ dịch vụ Báo cáo thông minh & Phân tích dữ liệu thông qua API Gateway,Hệ thống
+IV.14,Dịch vụ Trợ lý ảo,
+455,API Gửi yêu cầu xử lý ngôn ngữ đến dịch vụ Trợ lý ảo thông qua API Gateway,Hệ thống
+456,API Nhận kết quả xử lý ngôn ngữ từ dịch vụ Trợ lý ảo thông qua API Gateway,Hệ thống
+IV.15,Dịch vụ Speech to Text,
+457,API Gửi file âm thanh đến dịch vụ Speech to Text thông qua API Gateway,Hệ thống
+458,API Nhận kết quả văn bản từ dịch vụ Speech to Text thông qua API Gateway,Hệ thống
+IV.16,Dịch vụ Text to Speech,
+459,API Gửi văn bản đến dịch vụ Text to Speech thông qua API Gateway,Hệ thống
+460,API Nhận file âm thanh từ dịch vụ Text to Speech thông qua API Gateway,Hệ thống
+IV.17,Giải pháp làm việc từ xa an toàn,
+461,Xác thực phiên làm việc từ xa qua giải pháp làm việc từ xa an toàn thông qua API Gateway,Hệ thống
+V,Quản lý chia sẻ dữ liệu,
+462,Tra cứu danh sách API tích hợp,Quản trị viên hệ thống
+463,Quản lý danh sách API tích hợp,Quản trị viên hệ thống
+464,Tra cứu dịch vụ chia sẻ dữ liệu (nhóm API),Quản trị viên hệ thống
+465,Quản lý dịch vụ chia sẻ dữ liệu (nhóm API),Quản trị viên hệ thống
+466,Tra cứu thỏa thuận chia sẻ dữ liệu,Quản trị viên hệ thống
+467,Quản lý thỏa thuận chia sẻ dữ liệu,Quản trị viên hệ thống
+468,Theo dõi hiệu lực thỏa thuận chia sẻ dữ liệu,Hệ thống
+469,Theo dõi lịch sử gọi API tích hợp,Hệ thống
+470,Quản lý hòm thư phản hồi,Quản trị viên hệ thống
+471,Quản lý hòm thư góp ý,Quản trị viên hệ thống
+VI,Quản lý Thư viện biểu mẫu,
+472,Quản lý thông tin thư viện biểu mẫu,Quản trị viên hệ thống
+473,Xem thư viện biểu mẫu,Cán bộ chuyên môn; Cán bộ tiếp nhận; Người yêu cầu
+474,Tải xuống biểu mẫu trống,Cán bộ chuyên môn; Cán bộ tiếp nhận; Người yêu cầu
+475,Quản lý biểu mẫu để tự động điền,Quản trị viên hệ thống
+VII,Tìm kiếm và lọc nâng cao,
+476,Tìm kiếm toàn văn,Cán bộ chuyên môn; Cán bộ tiếp nhận; Lãnh đạo đơn vị; Cán bộ quản lý
+VIII,Hệ thống log tập trung,
+477,Gửi thông tin log tác động và log lỗi phát sinh sang hệ thống lưu log tập trung (API),Quản trị viên hệ thống
+478,Cấu hình thời hạn lưu trữ nhật ký theo từng loại,Quản trị viên hệ thống
+IX,CSDLQG về TNGT- đồng bộ tỷ lệ đơn vị công khai quy trình giải trình,
+479,Quản lý tích hợp CSDLQG về thực hiện trách nhiệm giải trình để đồng bộ dữ liệu công khai quy trình,Quản trị viên hệ thống
+480,"API gửi dữ liệu tỷ lệ đơn vị đã công khai quy trình, thủ tục giải trình sang CSDLQG về thực hiện trách nhiệm giải trình thông qua API Gateway",Hệ thống
+X,Đồng bộ trạng thái công khai đầu mối tiếp nhận giải trình,
+481,API gửi dữ liệu trạng thái công khai thông tin đầu mối tiếp nhận giải trình của từng đơn vị sang CSDLQG thông qua API Gateway,Hệ thống
+XI,Đồng bộ kết quả giải trình công khai và tra cứu không xác thực,
+482,API gửi kết quả giải trình đã được phê duyệt công khai sang CSDLQG về thông qua API Gateway,Hệ thống
+483,API nhận danh sách kết quả giải trình công khai từ CSDLQG về thực hiện trách nhiệm giải trình không cần xác thực thông qua API Gateway,CSDLQG về thực hiện trách nhiệm giải trình
+XII,Đồng bộ tỷ lệ số hóa hồ sơ giải trình,
+484,API gửi dữ liệu tỷ lệ hồ sơ giải trình được số hóa theo từng đơn vị sang CSDLQG thông qua API Gateway,Hệ thống
+XIII,Đồng bộ tỷ lệ tra cứu điện tử và cung cấp tra cứu hồ sơ cho hệ thống ngoài,
+485,API gửi dữ liệu tỷ lệ hồ sơ giải trình có thể tra cứu trên môi trường điện tử sang CSDLQG thông qua API Gateway,Hệ thống
+486,API nhận danh sách hồ sơ giải trình theo điều kiện lọc từ CSDLQG thông qua API Gateway,CSDLQG về thực hiện trách nhiệm giải trình
+487,API nhận lịch sử xử lý theo từng bước quy trình của hồ sơ giải trình từ CSDLQG thông qua API Gateway,CSDLQG về thực hiện trách nhiệm giải trình
+M,ĐÁP ỨNG VỀ BÁO CÁO THỐNG KÊ,
+I.1,Báo cáo Thống kê,
+488,Tra cứu báo cáo thống kê,Cán bộ quản lý; Lãnh đạo đơn vị; Cán bộ chuyên môn
+489,Báo cáo thống kê yêu cầu giải trình đã tiếp nhận,Cán bộ quản lý; Lãnh đạo đơn vị
+490,Báo cáo thống kê yêu cầu giải trình đã giải quyết,Cán bộ quản lý; Lãnh đạo đơn vị
+491,Báo cáo thống kê yêu cầu giải trình từ chối,Cán bộ quản lý; Lãnh đạo đơn vị
+492,Báo cáo thống kê yêu cầu giải trình đình chỉ vĩnh viễn,Cán bộ quản lý; Lãnh đạo đơn vị
+493,Báo cáo thống kê yêu cầu giải trình đình chỉ tạm thời,Cán bộ quản lý; Lãnh đạo đơn vị
+494,Báo cáo thống kê yêu cầu giải trình gia hạn,Cán bộ quản lý; Lãnh đạo đơn vị
+495,Báo cáo thống kê yêu cầu giải trình quá hạn,Cán bộ quản lý; Lãnh đạo đơn vị
+496,Xuất báo cáo thống kê yêu cầu giải trình bản (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+497,Xuất báo cáo thống kê yêu cầu giải trình bản (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.2,Báo cáo tiến độ xử lý,
+498,Báo cáo Tiến độ xử lý yêu cầu giải trình theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+499,Báo cáo Tiến độ xử lý yêu cầu giải trình theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+500,"Báo cáo Tiến độ xử lý yêu cầu giải trình theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+501,Báo cáo Tiến độ xử lý yêu cầu giải trình theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+502,Xuất báo cáo Tiến độ xử lý yêu cầu giải trình (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+503,Xuất báo cáo Tiến độ xử lý yêu cầu giải trình (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.3,Báo cáo tỷ lệ hoàn thành giải trình,
+504,Báo cáo Tỷ lệ hoàn thành giải trình đúng hạn theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+505,Báo cáo Tỷ lệ hoàn thành giải trình đúng hạn theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+506,"Báo cáo Tỷ lệ hoàn thành giải trình đúng hạn theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+507,Báo cáo Tỷ lệ giải trình quá hạn theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+508,Báo cáo Tỷ lệ giải trình quá hạn theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+509,"Báo cáo Tỷ lệ giải trình quá hạn theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+510,Xuất báo cáo Tỷ lệ hoàn thành giải trình ( PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+511,Xuất báo cáo Tỷ lệ hoàn thành giải trình ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.4,Báo cáo Tỷ lệ giải trình bằng văn bản,
+512,Báo cáo Tỷ lệ giải trình bằng văn bản theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+513,Báo cáo Tỷ lệ giải trình bằng văn bản theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+514,"Báo cáo Tỷ lệ giải trình bằng văn bản theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+515,Báo cáo Tỷ lệ giải trình bằng văn bản theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+516,Xuất báo cáo Tỷ lệ giải trình bằng văn bản (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+517,Xuất báo cáo Tỷ lệ giải trình bằng văn bản (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.5,Báo cáo Tỷ lệ giải trình trực tiếp,
+518,Báo cáo Tỷ lệ giải trình trực tiếp theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+519,Báo cáo Tỷ lệ giải trình trực tiếp theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+520,"Báo cáo Tỷ lệ giải trình trực tiếp theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+521,Báo cáo Tỷ lệ giải trình trực tiếp theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+522,Xuất báo cáo Tỷ lệ giải trình trực tiếp (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+523,Xuất báo cáo Tỷ lệ giải trình trực tiếp (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.6,Báo cáo Tỷ lệ yêu cầu giải trình,
+524,Báo cáo Tỷ lệ yêu cầu giải trình được tiếp nhận theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+525,Báo cáo Tỷ lệ yêu cầu giải trình được tiếp nhận theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+526,"Báo cáo Tỷ lệ yêu cầu giải trình được tiếp nhận theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+527,Báo cáo Tỷ lệ yêu cầu giải trình được tiếp nhận theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+528,Báo cáo Tỷ lệ yêu cầu giải trình bị từ chối theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+529,Báo cáo Tỷ lệ yêu cầu giải trình bị từ chối theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+530,"Báo cáo Tỷ lệ yêu cầu giải trình bị từ chối theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+531,Báo cáo Tỷ lệ yêu cầu giải trình bị từ chối theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+532,Báo cáo Tỷ lệ yêu cầu giải trình được gia hạn theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+533,Báo cáo Tỷ lệ yêu cầu giải trình được gia hạn theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+534,"Báo cáo Tỷ lệ yêu cầu giải trình được gia hạn theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+535,Báo cáo Tỷ lệ yêu cầu giải trình được gia hạn theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+536,Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ tạm thời theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+537,Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ tạm thời theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+538,"Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ tạm thời theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+539,Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ tạm thời theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+540,Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ vĩnh viền theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+541,Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ vĩnh viễn theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+542,"Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ vĩnh viễn theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+543,Báo cáo Tỷ lệ yêu cầu giải trình bị đình chỉ vĩnh viễn theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+544,Xuất báo cáo Tỷ lệ yêu cầu giải trình (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+545,Xuất báo cáo Tỷ lệ yêu cầu giải trình (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.7,Báo cáo tỷ lệ phản hồi,
+546,Báo cáo Tỷ lệ phản hồi về giải trình theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+547,Báo cáo Tỷ lệ phản hồi về giải trình theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+548,"Báo cáo Tỷ lệ phản hồi về giải trình theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+549,Báo cáo Tỷ lệ phản hồi về giải trình theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+550,Báo cáo Tỷ lệ phản hồi được chấp nhận theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+551,Báo cáo Tỷ lệ phản hồi được chấp nhận theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+552,"Báo cáo Tỷ lệ phản hồi được chấp nhận theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+553,Báo cáo Tỷ lệ phản hồi được chấp nhận theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+554,Xuất báo cáo Tỷ lệ phản hồi (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+555,Xuất báo cáo Tỷ lệ phản hồi ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.8,Báo cáo Mức độ hài lòng,
+556,Báo cáo Mức độ hài lòng của người yêu cầu giải trình theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+557,Báo cáo Mức độ hài lòng của người yêu cầu giải trình theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+558,"Báo cáo Mức độ hài lòng của người yêu cầu giải trình theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+559,Báo cáo Mức độ hài lòng của người yêu cầu giải trình theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+560,Xuất báo cáo Mức độ hài lòng của người yêu cầu giải trình (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+561,Xuất báo cáo Mức độ hài lòng của người yêu cầu giải trình (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.9,Báo cáo Lượt truy cập,
+562,Báo cáo Lượt truy cập kết quả giải trình công khai theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+563,Báo cáo Lượt truy cập kết quả giải trình công khai theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+564,"Báo cáo Lượt truy cập kết quả giải trình công khai theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+565,Báo cáo Lượt truy cập kết quả giải trình công khai theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+566,Xuất báo cáo Lượt truy cập kết quả giải trình công khai (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+567,Xuất báo cáo Lượt truy cập kết quả giải trình công khai (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.10,Báo cáo Số lượng thông báo dã gửi,
+568,Báo cáo Số lượng SMS đã gửi theo kỳ đối với nghiệp vụ tiếp nhận giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+569,Báo cáo Số lượng SMS đã gửi theo kỳ đối với nghiệp vụ xử lý giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+570,Báo cáo Số lượng SMS đã gửi theo kỳ đối với nghiệp vụ ban hành giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+571,Báo cáo Số lượng Email đã gửi theo kỳ đối với nghiệp vụ tiếp nhận giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+572,Báo cáo Số lượng Email đã gửi theo kỳ đối với nghiệp vụ xử lý giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+573,Báo cáo Số lượng Email đã gửi theo kỳ đối với nghiệp vụ ban hành giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+574,Báo cáo Số lượng thông báo hệ thống đã gửi theo kỳ đối với nghiệp vụ tiếp nhận giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+575,Báo cáo Số lượng thông báo hệ thống đã gửi theo kỳ đối với nghiệp vụ xử lý giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+576,Báo cáo Số lượng thông báo hệ thống đã gửi theo kỳ đối với nghiệp vụ ban hành giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+577,Báo cáo Tỷ lệ SMS gửi thành công theo kỳ đối với nghiệp vụ tiếp nhận giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+578,Báo cáo Tỷ lệ SMS gửi thành công theo kỳ đối với nghiệp vụ xử lý giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+579,Báo cáo Tỷ lệ SMS gửi thành công theo kỳ đối với nghiệp vụ ban hành giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+580,Báo cáo Tỷ lệ Email gửi thành công theo kỳ đối với nghiệp vụ tiếp nhận giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+581,Báo cáo Tỷ lệ Email gửi thành công theo kỳ đối với nghiệp vụ xử lý giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+582,Báo cáo Tỷ lệ Email gửi thành công theo kỳ đối với nghiệp vụ ban hành giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+583,Báo cáo Tỷ lệ thông báo hệ thống gửi thành công theo kỳ đối với nghiệp vụ tiếp nhận giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+584,Báo cáo Tỷ lệ thông báo hệ thống gửi thành công theo kỳ đối với nghiệp vụ xử lý giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+585,Báo cáo Tỷ lệ thông báo hệ thống gửi thành công theo kỳ đối với nghiệp vụ ban hành giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+586,Báo cáo Tỷ lệ Email gửi thất bại theo kỳ đối với nghiệp giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+587,Báo cáo Tỷ lệ thông báo hệ thống gửi thất bại theo kỳ đối với nghiệp vụ tiếp nhận giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+588,Báo cáo Tỷ lệ thông báo hệ thống gửi thất bại theo kỳ đối với nghiệp vụ xử lý giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+589,Báo cáo Tỷ lệ thông báo hệ thống gửi thất bại theo kỳ đối với nghiệp vụ ban hành giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+590,Xuất báo cáo Số lượng thông báo đã gửi (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+591,Xuất báo cáo Số lượng thông báo đã gửi (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.11,Báo cáo danh sách nhân sự,
+592,Báo cáo danh sách nhân sự có quyền truy cập hồ sơ yêu cầu giải trình,Quản trị viên hệ thống; Lãnh đạo đơn vị
+593,Báo cáo danh sách nhân sự có quyền truy cập hồ sơ xử lý giải trình,Quản trị viên hệ thống; Lãnh đạo đơn vị
+594,Báo cáo danh sách nhân sự có quyền truy cập văn bản giải trình,Quản trị viên hệ thống; Lãnh đạo đơn vị
+595,Báo cáo danh sách nhân sự có quyền truy cập kết quả giải trình công khai,Quản trị viên hệ thống; Lãnh đạo đơn vị
+596,Báo cáo danh sách nhân sự có quyền truy cập hồ sơ khiếu nại về giải trình,Quản trị viên hệ thống; Lãnh đạo đơn vị
+597,Xuất báo cáo danh sách nhân sự có quyền truy cập (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+598,Xuất báo cáo danh sách nhân sự có quyền truy cập ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+599,Báo cáo thực hiện công tác trách nhiệm giải trình năm,Cán bộ quản lý; Lãnh đạo đơn vị
+600,Báo cáo tổng hợp đánh giá xếp loại các cơ quan,Cán bộ quản lý; Lãnh đạo đơn vị
+601,Báo cáo so sánh các cơ quan về thực hiện trách nhiệm giải trình,Cán bộ quản lý; Lãnh đạo đơn vị
+602,Báo cáo xu hướng yêu cầu giải trình theo thời gian,Cán bộ quản lý; Lãnh đạo đơn vị
+I.12,Báo cáo yêu cầu giải trình,
+603,Báo cáo yêu cầu giải trình về quyết định hành chính theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+604,Báo cáo yêu cầu giải trình về quyết định hành chính theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+605,"Báo cáo yêu cầu giải trình về quyết định hành chính theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+606,Báo cáo yêu cầu giải trình về quyết định hành chính theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+607,Báo cáo yêu cầu giải trình về hành vi hành chính theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+608,Báo cáo yêu cầu giải trình về hành vi hành chính theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+609,"Báo cáo yêu cầu giải trình về hành vi hành chính theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+610,Báo cáo yêu cầu giải trình về hành vi hành chính theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+611,Báo cáo yêu cầu giải trình về thực hiện công vụ theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+612,Báo cáo yêu cầu giải trình về thực hiện công vụ theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+613,"Báo cáo yêu cầu giải trình về thực hiện công vụ theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+614,Báo cáo yêu cầu giải trình về thực hiện công vụ theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+615,Xuất báo cáo yêu cầu giải trình (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+616,Xuất báo cáo yêu cầu giải trình ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.13,Báo cáo Thời gian trung bình,
+617,Báo cáo Thời gian trung bình tiếp nhận yêu cầu giải trình theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+618,Báo cáo Thời gian trung bình tiếp nhận yêu cầu giải trình theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+619,"Báo cáo Thời gian trung bình tiếp nhận yêu cầu giải trình theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+620,Báo cáo Thời gian trung bình tiếp nhận yêu cầu giải trình theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+621,Báo cáo Thời gian trung bình xử lý yêu cầu giải trình theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+622,Báo cáo Thời gian trung bình xử lý yêu cầu giải trình theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+623,"Báo cáo Thời gian trung bình xử lý yêu cầu giải trình theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+624,Báo cáo Thời gian trung bình xử lý yêu cầu giải trình theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+625,Xuất báo cáo Thời gian trung bình yêu cầu giải trình (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+626,Xuất báo cáo Thời gian trung bình yêu cầu giải trình ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.14,Báo cáo Tỷ lệ tiếp nhận yêu cầu giải trình,
+627,Báo cáo Tỷ lệ tiếp nhận yêu cầu giải trình qua ứng dụng di động,Cán bộ quản lý; Lãnh đạo đơn vị
+628,Báo cáo Tỷ lệ tiếp nhận yêu cầu giải trình qua bộ phận một cửa,Cán bộ quản lý; Lãnh đạo đơn vị
+629,Báo cáo Tỷ lệ tiếp nhận yêu cầu giải trình qua bưu điện,Cán bộ quản lý; Lãnh đạo đơn vị
+630,"Xuất báo cáo Tỷ lệ tiếp nhận yêu cầu giải trình (PDF, Excel)",Cán bộ quản lý; Lãnh đạo đơn vị
+631,Báo cáo Số lượng yêu cầu giải trình theo kênh tiếp nhận theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+632,Báo cáo Số lượng yêu cầu giải trình theo kênh tiếp nhận theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+633,Xuất báo cáo Số lượng yêu cầu giải trình theo kênh tiếp nhận (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+634,Xuất báo cáo Số lượng yêu cầu giải trình theo kênh tiếp nhận ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+635,Báo cáo tỷ lệ yêu cầu giải trình theo đặc điểm người yêu cầu,Cán bộ quản lý; Lãnh đạo đơn vị
+636,Báo cáo Tỷ lệ yêu cầu giải trình từ người nước ngoài,Cán bộ quản lý; Lãnh đạo đơn vị
+I.15,Báo cáo công dân gửi yêu cầu giải trình nhiều lần,
+637,Báo cáo Số người yêu cầu giải trình lặp lại nhiều lần,Cán bộ quản lý; Lãnh đạo đơn vị
+638,Tổng hợp công dân gửi đơn nhiều lần,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+639,Theo dõi chi tiết danh sách đơn theo từng lần gửi của công dân,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+640,Xuất báo cáo danh sách đơn theo từng lần gửi của công dân (PDF),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+641,Xuất báo cáo danh sách đơn theo từng lần gửi của công dân (Excel),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+I.16,Báo cáo Lượt tải xuống kết quả giải trình,
+642,Báo cáo Lượt tải xuống kết quả giải trình công khai theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+643,"Báo cáo Lượt tải xuống kết quả giải trình công khai theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+644,Báo cáo Lượt tải xuống kết quả giải trình công khai theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+645,Báo cáo Lượt tải xuống kết quả giải trình công khai theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+646,Xuất báo cáo Lượt tải xuống kết quả giải trình công khai (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+647,Xuất báo cáo Lượt tải xuống kết quả giải trình công khai ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.17,Báo cáo tỷ lệ hồ sơ giải trình đủ căn cứ pháp lý,
+648,Báo cáo tỷ lệ hồ sơ giải trình có đầy đủ căn cứ pháp lý theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+649,"Báo cáo tỷ lệ hồ sơ giải trình có đầy đủ căn cứ pháp lý theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+650,Báo cáo tỷ lệ hồ sơ giải trình có đầy đủ căn cứ pháp lý theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+651,Báo cáo tỷ lệ hồ sơ giải trình có đầy đủ căn cứ pháp lý theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+652,Xuất báo cáo tỷ lệ hồ sơ giải trình có đầy đủ căn cứ pháp lý (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+653,Xuất báo cáo tỷ lệ hồ sơ giải trình có đầy đủ căn cứ pháp lý (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.18,Báo cáo chất lượng tài liệu hồ sơ giải trình,
+654,"Báo cáo tỷ lệ hồ sơ giải trình có đủ tài liệu, chứng cứ theo đơn vị",Cán bộ quản lý; Lãnh đạo đơn vị
+655,"Báo cáo tỷ lệ hồ sơ giải trình có đủ tài liệu, chứng cứ theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+656,"Báo cáo tỷ lệ hồ sơ giải trình có đủ tài liệu, chứng cứ theo địa bàn",Cán bộ quản lý; Lãnh đạo đơn vị
+657,"Báo cáo tỷ lệ hồ sơ giải trình có đủ tài liệu, chứng cứ theo chức danh",Cán bộ quản lý; Lãnh đạo đơn vị
+658,Xuất báo cáo chất lượng tài liệu hồ sơ giải trình (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+659,Xuất báo cáo chất lượng tài liệu hồ sơ giải trình (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.19,Báo cáo mức độ đáp ứng nội dung giải trình,
+660,Báo cáo tỷ lệ nội dung yêu cầu được giải trình đầy đủ theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+661,"Báo cáo tỷ lệ nội dung yêu cầu được giải trình đầy đủ theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+662,Báo cáo tỷ lệ nội dung yêu cầu được giải trình đầy đủ theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+663,Báo cáo tỷ lệ nội dung yêu cầu được giải trình đầy đủ theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+664,Xuất báo cáo mức độ đáp ứng nội dung giải trình (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+665,Xuất báo cáo mức độ đáp ứng nội dung giải trình (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.20,Báo cáo tỷ lệ hồ sơ giải trình không bị yêu cầu bổ sung,
+666,Báo cáo tỷ lệ hồ sơ giải trình đã đạt yêu cầu theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+667,"Báo cáo tỷ lệ hồ sơ giải trình đã đạt yêu cầu theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+668,Báo cáo tỷ lệ hồ sơ giải trình đã đạt yêu cầu theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+669,Báo cáo tỷ lệ hồ sơ giải trình đã đạt yêu cầu theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+670,Xuất báo cáo tỷ lệ hồ sơ giải trình đã đạt yêu cầu (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+671,Xuất báo cáo tỷ lệ hồ sơ giải trình đã đạt yêu cầu ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.21,Báo cáo tỷ lệ hồ sơ giải trình đảm bảo tính chính xác,
+672,"Tỷ lệ hồ sơ giải trình đảm bảo tính chính xác, thống nhất theo đơn vị",Cán bộ quản lý; Lãnh đạo đơn vị
+673,"Tỷ lệ hồ sơ giải trình đảm bảo tính chính xác, thống nhất theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+674,"Tỷ lệ hồ sơ giải trình đảm bảo tính chính xác, thống nhất theo địa bàn",Cán bộ quản lý; Lãnh đạo đơn vị
+675,"Tỷ lệ hồ sơ giải trình đảm bảo tính chính xác, thống nhất theo chức danh",Cán bộ quản lý; Lãnh đạo đơn vị
+676,Xuất báo cáo tỷ lệ hồ sơ giải trình đảm bảo tính chính xác (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+677,Xuất báo cáo tỷ lệ hồ sơ giải trình đảm bảo tính chính xác ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.22,Báo cáo tỷ lệ tiếp nhận yêu cầu giải trình đúng thẩm quyền,
+678,Báo cáo tỷ lệ yêu cầu giải trình được tiếp nhận đúng thẩm quyền theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+679,"Báo cáo tỷ lệ yêu cầu giải trình được tiếp nhận đúng thẩm quyền theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+680,Báo cáo tỷ lệ yêu cầu giải trình được tiếp nhận đúng thẩm quyền theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+681,Báo cáo tỷ lệ yêu cầu giải trình được tiếp nhận đúng thẩm quyền theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+682,Xuất báo cáo tỷ lệ tiếp nhận đúng thẩm quyền (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+683,Xuất báo cáo tỷ lệ tiếp nhận đúng thẩm quyền ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.23,Báo cáo tỷ lệ hồ sơ giải trình lập đầy đủ theo quy định,
+684,Báo cáo tỷ lệ hồ sơ giải trình lập đủ thành phần theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+685,"Báo cáo tỷ lệ hồ sơ giải trình lập đủ thành phần theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+686,Báo cáo tỷ lệ hồ sơ giải trình lập đủ thành phần theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+687,Báo cáo tỷ lệ hồ sơ giải trình lập đủ thành phần theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+688,Xuất báo cáo tỷ lệ hồ sơ giải trình lập đầy đủ theo quy định (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+689,Xuất báo cáo tỷ lệ hồ sơ giải trình lập đầy đủ theo quy định (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.24,Báo cáo tỷ lệ hồ sơ giải trình được theo dõi/cập nhật đầy đủ,
+690,Báo cáo tỷ lệ hồ sơ giải trình được theo dõi cập nhật đầy đủ theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+691,"Báo cáo tỷ lệ hồ sơ giải trình được theo dõi cập nhật đầy đủ theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+692,Báo cáo tỷ lệ hồ sơ giải trình được theo dõi cập nhật đầy đủ theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+693,Báo cáo tỷ lệ hồ sơ giải trình được theo dõi cập nhật đầy đủ theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+694,Xuất báo cáo tỷ lệ hồ sơ được theo dõi/cập nhật đầy đủ (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+695,Xuất báo cáo tỷ lệ hồ sơ được theo dõi/cập nhật đầy đủ ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.25,Báo cáo tỷ lệ đơn vị đã công khai quy trình giải trình,
+696,Báo cáo tỷ lệ đơn vị đã công khai quy trình theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+697,"Báo cáo tỷ lệ đơn vị đã công khai quy trình theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+698,Báo cáo tỷ lệ đơn vị đã công khai quy trình theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+699,Báo cáo tỷ lệ đơn vị đã công khai quy trình theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+700,Xuất báo cáo tỷ lệ đơn vị đã công khai quy trình (PDF ),Cán bộ quản lý; Lãnh đạo đơn vị
+701,Xuất báo cáo tỷ lệ đơn vị đã công khai quy trình ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.26,Báo cáo tỷ lệ kết quả giải trình được công khai theo quy định,
+702,Báo cáo tỷ lệ kết quả giải trình đã được công khai theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+703,"Báo cáo tỷ lệ kết quả giải trình đã được công khai theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+704,Báo cáo tỷ lệ kết quả giải trình đã được công khai theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+705,Báo cáo tỷ lệ kết quả giải trình đã được công khai theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+706,Xuất báo cáo tỷ lệ kết quả giải trình được công khai theo quy đính (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+707,Xuất báo cáo tỷ lệ kết quả giải trình được công khai theo quy đính (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.27,Báo cáo tỷ lệ hồ sơ giải trình có thể tra cứu trên môi trường điện tử,
+708,Báo cáo tỷ lệ hồ sơ giải trình tra cứu được trên hệ thống theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+709,"Báo cáo tỷ lệ hồ sơ giải trình tra cứu được trên hệ thống theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+710,Báo cáo tỷ lệ hồ sơ giải trình tra cứu được trên hệ thống theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+711,Báo cáo tỷ lệ hồ sơ giải trình tra cứu được trên hệ thống theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+712,Xuất báo cáo tỷ lệ hồ sơ giải trình tra cứu điện tử (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+713,Xuất báo cáo tỷ lệ hồ sơ GT tra cứu điện tử ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.28,Báo cáo tỷ lệ vụ giải trình không phát sinh giải trình lại,
+714,Báo cáo tỷ lệ vụ giải trình không phát sinh giải trình lại theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+715,"Báo cáo tỷ lệ vụ giải trình không phát sinh giải trình lại theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+716,Báo cáo tỷ lệ vụ giải trình không phát sinh giải trình lại theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+717,Báo cáo tỷ lệ vụ giải trình không phát sinh giải trình lại theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+718,Xuất báo cáo tỷ lệ vụ giải trình không phát sinh giải trình lại (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+719,Xuất báo cáo tỷ lệ vụ giải trình không phát sinh giải trình lại ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.29,Báo cáo tỷ lệ vụ giải trình không phát sinh khiếu nại sau giải trình,
+720,Báo cáo tỷ lệ vụ giải trình không phát sinh khiếu nại theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+721,"Báo cáo tỷ lệ vụ giải trình không phát sinh khiếu nại theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+722,Báo cáo tỷ lệ vụ giải trình không phát sinh khiếu nại theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+723,Báo cáo tỷ lệ vụ giải trình không phát sinh khiếu nại theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+724,Xuất báo cáo tỷ lệ vụ giải trình không phát sinh khiếu nại (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+725,Xuất báo cáo tỷ lệ vụ giải trình không phát sinh khiếu nại ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.30,Báo cáo tỷ lệ vụ giải trình không phát sinh tố cáo liên quan,
+726,Báo cáo tỷ lệ vụ giải trình không phát sinh tố cáo theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+727,"Báo cáo tỷ lệ vụ giải trình không phát sinh tố cáo theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+728,Báo cáo tỷ lệ vụ giải trình không phát sinh tố cáo theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+729,Báo cáo tỷ lệ vụ giải trình không phát sinh tố cáo theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+730,Xuất báo cáo tỷ lệ vụ giải trình không phát sinh tố cáo (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+731,Xuất báo cáo tỷ lệ vụ giải trình không phát sinh tố cáo ( Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.31,Báo cáo tỷ lệ vi phạm trong thực hiện TNGT đã được xử lý,
+732,Báo cáo tỷ lệ vi phạm TNGT đã được xử lý theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+733,"Báo cáo tỷ lệ vi phạm TNGT đã được xử lý theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+734,Báo cáo tỷ lệ vi phạm TNGT đã được xử lý theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+735,Báo cáo tỷ lệ vi phạm TNGT đã được xử lý theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+736,Xuất báo cáo tỷ lệ vi phạm TNGT đã xử lý (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+737,Xuất báo cáo tỷ lệ vi phạm TNGT đã xử lý (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.32,Báo cáo tỷ lệ kiến nghị sau kiểm tra/thanh tra đã thực hiện,
+738,Báo cáo tỷ lệ kiến nghị sau kiểm tra/thanh tra đã được thực hiện theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+739,"Báo cáo tỷ lệ kiến nghị sau kiểm tra/thanh tra đã được thực hiện theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+740,Báo cáo tỷ lệ kiến nghị sau kiểm tra/thanh tra đã được thực hiện theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+741,Báo cáo tỷ lệ kiến nghị sau kiểm tra/thanh tra đã được thực hiện theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+742,Xuất báo cáo tỷ lệ kiến nghị sau kiểm tra/thanh tra đã thực hiện (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+743,Xuất báo cáo tỷ lệ kiến nghị sau kiểm tra/thanh tra đã thực hiện (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.33,Báo cáo tỷ lệ biện pháp khắc phục hậu quả vi phạm đã hoàn thành,
+744,Báo cáo tỷ lệ biện pháp khắc phục hậu quả đã hoàn thành theo đơn vị,Cán bộ quản lý; Lãnh đạo đơn vị
+745,"Báo cáo tỷ lệ biện pháp khắc phục hậu quả đã hoàn thành theo ngành, lĩnh vực",Cán bộ quản lý; Lãnh đạo đơn vị
+746,Báo cáo tỷ lệ biện pháp khắc phục hậu quả đã hoàn thành theo địa bàn,Cán bộ quản lý; Lãnh đạo đơn vị
+747,Báo cáo tỷ lệ biện pháp khắc phục hậu quả đã hoàn thành theo chức danh,Cán bộ quản lý; Lãnh đạo đơn vị
+748,Xuất báo cáo tỷ lệ biện pháp khắc phục đã hoàn thành (PDF),Cán bộ quản lý; Lãnh đạo đơn vị
+749,Xuất báo cáo tỷ lệ biện pháp khắc phục đã hoàn thành (Excel),Cán bộ quản lý; Lãnh đạo đơn vị
+I.34,Báo cáo số lượng đơn giải trình đang xử lý của từng cá nhân,
+750,Tổng hợp số lượng yêu cầu giải trình đang xử lý của từng cá nhân,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+751,Theo dõi chi tiết danh sách yêu cầu giải trình đang xử lý của từng cá nhân,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+752,Xuất báo cáo số lượng yêu cầu giải trình đang xử lý của từng cá nhân (PDF),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+753,Xuất báo cáo số lượng yêu cầu giải trình đang xử lý của từng cá nhân ( Excel),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+I.35,Báo cáo số lượng yêu cầu giải trình đã xử lý của từng cá nhân,
+754,Tổng hợp số lượng yêu cầu giải trình đã xử lý của từng cá nhân,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+755,Theo dõi chi tiết danh sách yêu cầu giải trình đã xử lý của từng cá nhân,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+756,Xuất báo cáo số lượng yêu cầu giải trình đã xử lý của từng cá nhân (PDF),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+757,Xuất báo cáo số lượng yêu cầu giải trình đã xử lý của từng cá nhân (Excel),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+I.36,Báo cáo số lượng đơn quá hạn/tồn đọng theo từng cá nhân,
+758,Tổng hợp số lượng đơn quá hạn/tồn đọng của từng cá nhân,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+759,Theo dõi chi tiết danh sách số lượng đơn quá hạn/tồn đọng của từng cá nhân,"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+760,Xuất báo cáo số lượng yêu cầu giải trình quá hạn/tồn động của từng cá nhân (PDF),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+761,Xuất báo cáo số lượng yêu cầu giải trình quá hạn/tồn động của từng cá nhân ( Excel),"Lãnh đạo cơ quan, Lãnh đạo đơn vị"
+N,QUẢN LÝ DỮ LIỆU SỐ HOÁ,
+I,Hệ thống tương tác trực tiếp với OCR,
+762,Quản lý chất lượng số hóa tài liệu,Cán bộ văn thư / Cán bộ chuyên môn
+763,Thực hiện scan / OCR tài liệu bằng phần mềm,Cán bộ văn thư
+II,Quản lý biểu mẫu văn bản,
+764,Tra cứu biểu mẫu văn bản,Quản trị viên hệ thống; Cán bộ văn thư
+765,Quản lý các biểu mẫu văn bản,Quản trị viên hệ thống
+766,Tải xuống hồ sơ yêu cầu giải trình bản (PDF),Người Yêu Cầu
+III,Quản lý hành chính sau số hóa,
+III.1,Quản lý kỳ số hóa yêu cầu giải trình,
+767,Tra cứu kỳ số hóa yêu cầu giải trình,Cán bộ văn thư; Cán bộ chuyên môn
+768,Quản lý thông tin kỳ số hóa yêu cầu giải trình,Cán bộ văn thư; Quản trị viên hệ thống
+769,Quản lý danh sách yêu cầu giải trình được số hóa trong kỳ,Cán bộ văn thư; Cán bộ chuyên môn
+770,Tra cứu hồ sơ số hoá yêu cầu giải trình,Cán bộ văn thư; Cán bộ chuyên môn
+771,Quản lý yêu cầu giải trình được số hóa,Cán bộ văn thư
+III.2,Quản lý kỳ số hóa văn bản giải trình bản giấy,
+772,Tra cứu kỳ số hóa văn bản giải trình bản giấy,Cán bộ văn thư; Cán bộ chuyên môn
+773,Quản lý thông tin kỳ số hóa văn bản giải trình bản giấy,Cán bộ văn thư; Quản trị viên hệ thống
+774,Quản lý danh sách văn bản giải trình bản giấy được số hóa,Cán bộ văn thư; Cán bộ chuyên môn
+775,Tra cứu văn bản giải trình bản giấy được số hóa,Cán bộ văn thư; Cán bộ chuyên môn
+776,Quản lý văn bản giải trình bản giấy được số hóa,Cán bộ văn thư
+III.3,Quản lý kỳ số hóa biên bản giải trình trực tiếp,
+777,Tra cứu kỳ số hóa biên bản giải trình trực tiếp,Cán bộ văn thư; Cán bộ chuyên môn
+778,Quản lý thông tin kỳ số hóa biên bản giải trình trực tiếp,Cán bộ văn thư; Quản trị viên hệ thống
+779,Quản lý danh sách biên bản giải trình trực tiếp được số hóa,Cán bộ văn thư; Cán bộ chuyên môn
+780,Tra cứu biên bản giải trình trực tiếp được số hóa,Cán bộ văn thư; Cán bộ chuyên môn
+781,Quản lý biên bản giải trình trực tiếp được số hóa,Cán bộ văn thư
+III.4,Quản lý kỳ số hóa phản hồi về giải trình,
+782,Tra cứu kỳ số hóa phản hồi về giải trình,Cán bộ văn thư; Cán bộ chuyên môn
+783,Quản lý thông tin kỳ số hóa phản hồi về giải trình,Cán bộ văn thư; Quản trị viên hệ thống
+784,Quản lý danh sách phản hồi về giải trình được số hóa,Cán bộ văn thư; Cán bộ chuyên môn
+785,Tra cứu phản hồi về giải trình được số hóa,Cán bộ văn thư; Cán bộ chuyên môn
+786,Quản lý phản hồi về giải trình được số hóa,Cán bộ văn thư
+O,GIÁM SÁT KẾT NỐI NDOP,
+787,Quản lý giám sát kết nối NDOP,Quản trị viên hệ thống
+P,DASHBOARD VÀ HỖ TRỢ RA QUYẾT ĐỊNH,
+I,Dashboard tổng quan,
+788,Dashboard tổng quan tình hình giải trình toàn quốc,Quản trị viên hệ thống
+789,Dashboard tổng quan tình hình giải trình theo đơn vị,Quản trị viên hệ thống
+790,"Dashboard tổng quan tình hình giải trình theo ngành, lĩnh vực",Quản trị viên hệ thống
+791,Dashboard tổng quan tình hình giải trình theo địa bàn,Quản trị viên hệ thống
+792,Cấu hình widget trên dashboard,Quản trị viên hệ thống
+793,Xuất dashboard ra file PDF,Quản trị viên hệ thống
+II,Biểu đồ trực quan,
+794,Biểu đồ xu hướng số yêu cầu giải trình theo thời gian,Quản trị viên hệ thống
+795,Biểu đồ phân bố yêu cầu giải trình theo lĩnh vực,Quản trị viên hệ thống
+796,Biểu đồ thống kê yêu cầu giải trình theo tỉnh/thành,Quản trị viên hệ thống
+797,"Biểu đồ so sánh các Bộ, ngành, địa phương",Quản trị viên hệ thống
+798,Biểu đồ xếp hạng các cơ quan theo chỉ số đánh giá,Quản trị viên hệ thống
+799,Biểu đồ tròn cơ cấu trạng thái yêu cầu giải trình,Quản trị viên hệ thống
+800,Biểu đồ heatmap theo lĩnh vực và thời gian,Quản trị viên hệ thống
+801,Biểu đồ phân bố yêu cầu giải trình theo cơ quan giải trình,Quản trị viên hệ thống
+802,Biểu đồ tròn cơ cấu hình thức giải trình (trực tiếp/văn bản),Quản trị viên hệ thống
+803,Biểu đồ cột thời gian xử lý trung bình yêu cầu giải trình,Quản trị viên hệ thống
+804,Biểu đồ tỷ lệ giải trình đúng hạn/quá hạn,Quản trị viên hệ thống
+805,Biểu đồ cột số lượng yêu cầu giải trình theo nhóm đối tượng,Quản trị viên hệ thống
+806,Biểu đồ xếp hạng cơ quan theo hiệu quả thực hiện trách nhiệm giải trình,Quản trị viên hệ thống
+807,Biểu đồ cột tổng hợp kết quả đánh giá trách nhiệm giải trình theo năm,Quản trị viên hệ thống
+808,Xuất báo cáo tổng hợp kết quả đánh giá trách nhiệm giải trình theo năm ra file PDF,Quản trị viên hệ thống
+809,Xuất báo cáo tổng hợp kết quả đánh giá trách nhiệm giải trình theo năm ra file Excel,Quản trị viên hệ thống
+III,Cảnh báo và đề xuất,
+810,Cảnh báo yêu cầu giải trình sắp đến hạn xử lý,Quản trị viên hệ thống
+811,Cảnh báo yêu cầu giải trình quá hạn xử lý,Quản trị viên hệ thống
+812,Cảnh báo cơ quan có nhiều khiếu nại,Quản trị viên hệ thống
+813,Cảnh báo cơ quan có tỷ lệ từ chối cao,Quản trị viên hệ thống
+814,Đề xuất nội dung trả lời từ các giải trình tương tự,Quản trị viên hệ thống
+Q,TRUY CẬP CHO CƠ QUAN GIÁM SÁT,
+I,Quản lý tài khoản cơ quan giám sát,
+815,Tra cứu tài khoản cơ quan giám sát,Quản trị viên hệ thống
+816,Quản lý tài khoản của cơ quan giám sát,Quản trị viên hệ thống
+817,Quản lý phạm vi giám sát theo cấp,Quản trị viên hệ thống
+II,Khai thác dữ liệu của cơ quan giám sát,
+818,Tra cứu thông tin tổng hợp về giải trình,Lãnh đạo đơn vị/ Quản trị viên hệ thống
+819,Xem báo cáo tổng hợp về giải trình,Lãnh đạo đơn vị/ Quản trị viên hệ thống
+820,Theo dõi dashboard giám sát giải trình,Lãnh đạo đơn vị/ Quản trị viên hệ thống
+821,Xuất dữ liệu phục vụ công tác giám sát,Lãnh đạo đơn vị/ Quản trị viên hệ thống
+III,Nhật ký truy cập của cơ quan giám sát,
+822,Quản lý nhật ký truy cập của cơ quan giám sát,Quản trị viên hệ thống
+823,Thống kê tần suất truy cập theo cơ quan giám sát,Quản trị viên hệ thống
+R,QUẢN LÝ THEO DÕI NHIỆM VỤ VÀ TIẾN ĐỘ,
+I,Quản lý nhiệm vụ cán bộ,
+824,Tra cứu nhiệm vụ giải trình được giao,"Cán bộ chuyên môn,Lãnh đạo đơn vị"
+825,Quản lý nhiệm vụ giải trình được giao,Cán bộ chuyên môn
+826,Cập nhật trạng thái thực hiện nhiệm vụ,Cán bộ chuyên môn
+827,Báo cáo kết quả nhiệm vụ,Cán bộ chuyên môn
+828,Duyệt kết quả thực hiện nhiệm vụ,Lãnh đạo đơn vị
+829,Theo dõi lịch sử xử lý nhiệm vụ,Lãnh đạo đơn vị
+II,Cảnh báo và nhắc nhở,
+830,Cảnh báo nhiệm vụ chờ phê duyệt (chưa tiếp nhận),Quản trị viên hệ thống
+831,Cảnh báo nhiệm vụ sắp hết hạn,Quản trị viên hệ thống
+832,Cảnh báo nhiệm vụ quá hạn,Quản trị viên hệ thống
+833,Cảnh báo chỉ tiêu chậm tiến độ/không đạt của việc đánh giá TNGT,Quản trị viên hệ thống
+834,Nhắc nhở yêu cầu giải trình sắp đến hạn xử lý,Quản trị viên hệ thống
+835,Nhắc nhở yêu cầu giải trình sắp đến hạn 15 ngày,Quản trị viên hệ thống
+836,Nhắc nhở yêu cầu giải trình sắp đến hạn gia hạn,Quản trị viên hệ thống
+III,Quản lý đôn đốc nhiệm vụ,
+837,Quản lý danh sách hồ sơ giải trình sắp đến hạn,Lãnh đạo đơn vị CM
+838,Quản lý danh sách hồ sơ chưa cập nhật tiến độ xử lý,Lãnh đạo đơn vị CM
+839,Quản lý danh sách hồ sơ quá hạn,Lãnh đạo đơn vị CM
+840,Lập và gửi yêu cầu đôn đốc cán bộ thực hiện nhiệm vụ,Lãnh đạo đơn vị CM
+841,Tiếp nhận yêu cầu đôn đốc thực hiện nhiệm vụ,Cán bộ chuyên môn
+842,Soạn dự thảo và trình duyệt văn bản đôn đốc,Cán bộ chuyên môn
+843,Phê duyệt dự thảo văn bản đôn đốc,Lãnh đạo đơn vị CM
+844,Soạn và trình văn bản đôn đốc,Cán bộ chuyên môn
+845,Phê duyệt/Từ chối văn bản đôn đốc,Lãnh đạo đơn vị CM
+846,Ký số và ban hành văn bản đôn đốc,Lãnh đạo đơn vị CM
+847,Theo dõi kết quả thực hiện đôn đốc,"Lãnh đạo đơn vị CM, Cán bộ chuyên môn"
+848,Quản lý văn bản đôn đốc thực hiện nhiệm vụ,Lãnh đạo đơn vị CM
+IV,Dashboard tiến độ,
+849,Dashboard tiến độ thực hiện nhiệm vụ theo cán bộ,Quản trị viên hệ thống
+850,Dashboard tiến độ thực hiện nhiệm vụ theo đơn vị,Quản trị viên hệ thống
+851,Dashboard tiến độ giải trình theo loại nội dung,Quản trị viên hệ thống
+852,Dashboard đánh giá tiến độ thực hiện nhiệm vụ giải trình,Quản trị viên hệ thống
+853,Giám sát và theo dõi dashboard đánh giá thực hiện nhiệm vụ,Lãnh đạo đơn vị/Cán bộ chuyên môn
+854,Bảng xếp hạng cán bộ theo hiệu quả thực hiện nhiệm vụ,Quản trị viên hệ thống
+S,QUẢN LÝ VĂN BẢN VÀ HỒ SƠ ĐIỆN TỬ,
+I,Quản lý sổ văn bản,
+855,Tra cứu sổ văn bản đi về giải trình,Cán bộ văn thư
+856,Quản lý sổ văn bản đi về giải trình,Cán bộ văn thư
+857,Tra cứu sổ văn bản đến về giải trình,Cán bộ văn thư
+858,Quản lý sổ văn bản đến về giải trình,Cán bộ văn thư
+859,Xuất sổ văn bản theo định kỳ,Cán bộ văn thư
+860,Theo dõi trạng thái xử lý văn bản,Cán bộ văn thư
+II,Quản lý hồ sơ điện tử,
+861,Bàn giao hồ sơ giải trình,Cán bộ chuyên môn
+862,Kiểm tra tính đầy đủ của hồ sơ giải trình,Cán bộ văn thư
+863,Tiếp nhận hồ sơ giải trình,Cán bộ văn thư
+864,Từ chối tiếp nhận hồ sơ giải trình,Cán bộ văn thư
+865,Yêu cầu bổ sung hồ sơ giải trình,Cán bộ văn thư
+866,Bổ sung hồ sơ giải trình bàn giao,Cán bộ chuyên môn
+867,Xác nhận biên bản bàn giao hồ sơ giải trình,"Cán bộ chuyên môn, Cán bộ văn thư"
+868,Theo dõi lịch sử bàn giao hồ sơ giải trình,"Cán bộ chuyên môn, Cán bộ văn thư"
+869,Quản lý hồ sơ điện tử giải trình,Cán bộ văn thư
+870,Tra cứu hồ sơ điện tử giải trình,Cán bộ văn thư
+871,Bổ sung/Cập nhật hồ sơ điện tử giải trình,Cán bộ văn thư
+872,Khóa chỉnh sửa hồ sơ điện tử giải trình,Cán bộ văn thư
+873,Lập danh mục hồ sơ lưu trữ,Cán bộ văn thư
+874,Kiểm tra hồ sơ trước khi phân loại lưu trữ,Cán bộ văn thư
+875,Phân loại hồ sơ theo bảng phân loại lưu trữ,Cán bộ văn thư
+876,Xác định thời hạn bảo quản hồ sơ,Cán bộ văn thư
+877,Chuyển hồ sơ sang lưu trữ vĩnh viễn,Cán bộ văn thư
+878,Xuất hồ sơ điện tử khi cần,Cán bộ văn thư
+III,Liên thông văn bản,
+879,Gửi văn bản qua trục liên thông văn bản Quốc gia,Cán bộ văn thư
+880,Nhận văn bản từ trục liên thông văn bản Quốc gia,Cán bộ văn thư
+881,Theo dõi trạng thái gửi/nhận văn bản,Cán bộ văn thư
+T,CHỨC NĂNG HỖ TRỢ TIẾP CẬN VÀ ĐA NGÔN NGỮ,
+I,Hỗ trợ tiếp cận tiện tích,
+882,Hỗ trợ điều khiển bằng bàn phím,Quản trị viên hệ thống
+883,Hỗ trợ phóng to nội dung,Quản trị viên hệ thống
+II,Hỗ trợ đa ngôn ngữ,
+884,Hỗ trợ giao diện tiếng Việt,Quản trị viên hệ thống
+885,Hỗ trợ giao diện tiếng Anh,Quản trị viên hệ thống
+886,Cấu hình ngôn ngữ giao diện cá nhân,Quản trị viên hệ thống
+887,Dịch tự động nội dung yêu cầu giải trình tiếng nước ngoài,Quản trị viên hệ thống
+U,CHỨC NĂNG AN TOÀN THÔNG TIN CẤP ĐỘ 3,
+I,Xác thực và kiểm soát truy cập,
+888,Quản lý tài khoản người dùng,Quản trị hệ thống
+889,Thiết lập chính sách truy cập hệ thống,Quản trị hệ thống
+890,Quản lý vai trò,Quản trị hệ thống
+891,Quản lý tài khoản cá nhân,Tất cả người dùng
+892,Đăng xuất,Tất cả người dùng
+893,Xác thực đa yếu tố (MFA),Quản trị hệ thống
+894,Đăng nhập qua VNeID,Tất cả người dùng
+895,Khóa tài khoản khi đăng nhập sai nhiều lần,Quản trị hệ thống
+896,Mở khóa tài khoản bị khóa,Quản trị hệ thống
+897,Cấu hình thời gian hết hạn phiên,Quản trị hệ thống
+898,Cảnh báo phiên làm việc bất thường,Quản trị hệ thống
+899,Buộc đăng xuất phiên từ xa,Quản trị hệ thống
+900,Giới hạn số phiên đăng nhập đồng thời,Quản trị hệ thống
+901,Tự động hết phiên khi không hoạt động,Quản trị hệ thống
+902,Xem danh sách phiên đang hoạt động,Quản trị hệ thống
+903,Quản lý lịch sử tác động của tài khoản,Quản trị hệ thống
+904,Quản lý thiết bị đăng nhập,Quản trị hệ thống
+905,Tải danh sách tài khoản lên hệ thống,Quản trị hệ thống
+II,Quản lý cấu hình chung,
+906,Quản lý cấu hình thông báo,Quản trị viên hệ thống
+907,Quản lý cấu hình 2FA,Quản trị viên hệ thống
+908,Quản lý cấu hình email,Quản trị viên hệ thống
+909,Cấu hình hiển thị thông tin hệ thống,Quản trị viên hệ thống
+910,Cấu hình giới hạn địa chỉ mạng,Quản trị viên hệ thống
+911,Lưu log hệ thống,Quản trị viên hệ thống
+912,Quản lý lịch sử lỗi phát sinh,Quản trị viên hệ thống
+III,Thông báo nội bộ,
+913,Quản lý thông báo nội bộ,Quản trị viên hệ thống
+IV,Thu thập dữ liệu danh mục dùng chung,
+914,Quản lý cấu hình nguồn dữ liệu,Quản trị viên hệ thống
+915,Thiết lập API đồng bộ dữ liệu,Quản trị viên hệ thống
+916,Thiết lập biểu mẫu nhập dữ liệu,Quản trị viên hệ thống
+V,"Quản lý cấu hình đồng bộ, chia sẻ dữ liệu",
+917,Quản lý đồng bộ và phê duyệt dữ liệu danh mục,Quản trị viên hệ thống
+918,Quản lý danh mục chia sẻ dữ liệu,"Quản trị viên hệ thống, các hệ thống khác"
+919,Quản lý lịch sử cấu hình chia sẻ dữ liệu,Quản trị viên hệ thống
+VI,Quản lý danh mục độ mật,
+920,Quản lý danh mục mức độ mật,Quản trị viên hệ thống; Chuyên viên phụ trách
+VII,Quản lý chữ ký số,
+921,Quản lý danh sách chữ kí số của tổ chức/cá nhân,Quản trị hệ thống
+922,Quản lý danh sách loại văn bản/tài liệu yêu cầu ký số,Quản trị hệ thống
+923,"Quản lý thiết bị ký số (USB Token, HSM) được phép sử dụng trong hệ thống",Quản trị hệ thống
+924,Cảnh báo tự động khi chứng thư số sắp hết hạn,Quản trị hệ thống
+925,Cảnh báo khi phát hiện chữ ký số không hợp lệ hoặc bị giả mạo,Quản trị hệ thống
+926,Kiểm tra kết nối với hệ thống CA và dịch vụ xác thực chữ ký số,Quản trị hệ thống
+927,Cấu hình quy trình ký số nhiều cấp,Quản trị hệ thống
+928,"Tra cứu lịch sử ký số theo người ký, loại tài liệu, thời gian, trạng thái ký",Quản trị hệ thống
+929,Thu hồi chứng thư số khi phát hiện vi phạm hoặc hết hạn sử dụng,Quản trị hệ thống
+930,Gia hạn chứng thư số sắp hết hạn,Quản trị hệ thống
+931,Báo cáo chứng thư số hết hạn/sắp hết hạn/đã thu hồi,Quản trị hệ thống
+VIII,Quản lý Thiết bị ký số và phương thức ký,
+932,Quản lý thiết bị ký số,Quản trị viên hệ thống; Chuyên viên phụ trách
+933,Quản lý phương thức ký số,Quản trị viên hệ thống; Chuyên viên phụ trách
+IX,Quản lý Chức năng Nhật ký ký số,
+934,Quản lý nhật ký ký số,Quản trị viên hệ thống; Chuyên viên phụ trách
+935,Tra cứu lịch sử ký số,Quản trị viên hệ thống; Chuyên viên phụ trách
+X,Quản trị quy trình,
+936,Quản lý quy trình,Quản trị hệ thống
+937,Cấu hình chức năng sử dụng quy trình,Quản trị hệ thống
+938,Quản lý dashboard,Quản trị hệ thống
+939,Cấu hình hiển thị dashboard theo vai trò,Quản trị hệ thống
+XI,Đáp ứng yêu cầu dữ liệu của hệ thống,
+940,"Tra cứu danh mục nội dung công khai, minh bạch",Quản trị hệ thống
+941,"Quản lý danh mục nội dung công khai, minh bạch",Quản trị hệ thống
+942,Tra cứu danh mục hình thức công khai,Quản trị hệ thống
+943,Quản lý danh mục hình thức công khai,Quản trị hệ thống
