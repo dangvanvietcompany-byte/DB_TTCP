@@ -186,6 +186,49 @@ for f in entities["yeu_cau_giai_trinh"]:
     if f["field"] == "trang_thai":
         f["note"] = "...,Đã rút (bổ sung)"
 
+# ============ Uu tien THAP ============
+
+# 10) Van ban don doc rieng cho quy trinh giam sat, giao viec (muc R.III)
+entities["van_ban_don_doc"] = [
+    {"field": "id", "key": "PK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "phieu_giao_viec_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "so_van_ban", "key": None, "type": "VARCHAR(50)", "new": True},
+    {"field": "trich_yeu", "key": None, "type": "VARCHAR(500)", "new": True},
+    {"field": "noi_dung", "key": None, "type": "LONGTEXT", "new": True},
+    {"field": "nguoi_soan_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "ngay_soan", "key": None, "type": "DATETIME", "new": True},
+    {"field": "nguoi_ky_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "ngay_ban_hanh", "key": None, "type": "DATETIME", "new": True},
+    {"field": "trang_thai", "key": None, "type": "ENUM", "new": True},
+]
+
+# 11) Cau hinh dashboard/widget theo vai tro (UC 792, 939)
+entities["cau_hinh_dashboard"] = [
+    {"field": "id", "key": "PK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "vai_tro_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+    {"field": "ten_widget", "key": None, "type": "VARCHAR(150)", "new": True},
+    {"field": "vi_tri", "key": None, "type": "INT", "new": True},
+    {"field": "cau_hinh_hien_thi", "key": None, "type": "TEXT", "new": True,
+     "note": "JSON: kích thước, bộ lọc mặc định..."},
+    {"field": "trang_thai", "key": None, "type": "TINYINT", "new": True},
+]
+
+# 12) Phan biet hinh thuc ky (ky so/ky nhay) va thiet bi ky dung
+#     -> phuc vu UC928 "tra cuu lich su ky so theo nguoi ky, loai tai lieu,
+#     thoi gian, trang thai ky"
+for ent_name in ("phe_duyet", "van_ban_giai_trinh"):
+    ent = entities[ent_name]
+    idx = next(i for i, f in enumerate(ent) if f["field"] == "chu_ky_so")
+    ent[idx+1:idx+1] = [
+        {"field": "hinh_thuc_ky", "key": None, "type": "ENUM", "new": True,
+         "note": "Ký số/Ký nháy"},
+    ]
+pd = entities["phe_duyet"]
+idx = next(i for i, f in enumerate(pd) if f["field"] == "hinh_thuc_ky")
+pd[idx+1:idx+1] = [
+    {"field": "thiet_bi_ky_id", "key": "FK", "type": "BIGINT UNSIGNED", "new": True},
+]
+
 ENTITY_CLUSTER = {
     "don_vi": "DANH_MUC", "vai_tro": "DANH_MUC", "nguoi_dung": "DANH_MUC",
     "nguoi_dung_vai_tro": "DANH_MUC", "bo_phan_tiep_nhan": "DANH_MUC",
@@ -225,6 +268,9 @@ ENTITY_CLUSTER = {
 
     "nhat_ky_cau_hinh_he_thong": "QUANTRI",
     "chung_thu_so": "QUANTRI", "thiet_bi_ky_so": "QUANTRI",
+    "cau_hinh_dashboard": "QUANTRI",
+
+    "van_ban_don_doc": "GIAMSAT",
 }
 
 edges = json.load(open(os.path.join(SCRIPT_DIR, "edges_base.json"), encoding="utf-8"))
@@ -242,6 +288,11 @@ NEW_EDGES = [
     ("phieu_danh_gia", "don_vi"),
     ("phieu_danh_gia", "can_bo"),
     ("ket_qua_khao_sat", "phieu_danh_gia"),
+    ("van_ban_don_doc", "phieu_giao_viec"),
+    ("van_ban_don_doc", "can_bo"),
+    ("van_ban_don_doc", "can_bo"),
+    ("cau_hinh_dashboard", "vai_tro"),
+    ("phe_duyet", "thiet_bi_ky_so"),
 ]
 edges = edges + NEW_EDGES
 
@@ -331,6 +382,67 @@ def render(name, entity_subset, edge_subset, title, with_clusters=True):
     print("rendered", svg_path)
 
 
+# Nhan mo ta ngan cho ban tong quan rut gon (khong hien field)
+OVERVIEW_NOTES = {
+    "don_vi": "Đơn vị", "nguoi_dung": "Định danh chung",
+    "yeu_cau_giai_trinh": "TRUNG TÂM",
+    "can_bo": "id = nguoi_dung.id", "nguoi_dan": "id = nguoi_dung.id",
+    "to_chuc": "id = nguoi_dung.id", "phe_duyet": "nhật ký duyệt",
+    "danh_muc_ly_do_giai_trinh": "mới bổ sung", "danh_muc_dung_chung": "mới bổ sung",
+    "phien_dang_nhap": "mới bổ sung", "chung_thu_so": "mới bổ sung",
+    "thiet_bi_ky_so": "mới bổ sung", "nhat_ky_he_thong": "mới bổ sung",
+    "ky_so_hoa": "mới bổ sung", "phieu_danh_gia": "mới bổ sung",
+    "van_ban_don_doc": "mới bổ sung", "cau_hinh_dashboard": "mới bổ sung",
+}
+
+
+def build_overview_dot(title, entity_subset, edge_subset):
+    lines = []
+    lines.append(f'digraph "{title}" {{')
+    lines.append('rankdir=LR; nodesep=0.25; ranksep=0.9;')
+    lines.append('node [shape=plain];')
+    lines.append(f'labelloc="t"; fontsize=20; fontname="Helvetica,sans-Serif"; label=<{esc(title)}>;')
+
+    by_cluster = {}
+    for e in entity_subset:
+        by_cluster.setdefault(ENTITY_CLUSTER[e], []).append(e)
+    cidx = 0
+    for cname, cinfo in CLUSTERS.items():
+        if cname not in by_cluster:
+            continue
+        cidx += 1
+        lines.append(f'subgraph cluster_{cidx}_{cname} {{')
+        lines.append(f'label=<<FONT FACE="Helvetica,sans-Serif" POINT-SIZE="12"><B>{cinfo["label"]}</B></FONT>>;')
+        lines.append(f'style=filled; color="{cinfo["color"]}"; fillcolor="{cinfo["color"]}33";')
+        for e in by_cluster[cname]:
+            header_color = EXT_COLOR if e in ("can_bo", "nguoi_dan", "to_chuc") else cinfo["color"]
+            note = OVERVIEW_NOTES.get(e)
+            name_font = '<FONT COLOR="#c00000">' + esc(e) + '</FONT>' if note == "mới bổ sung" else esc(e)
+            rows = f'<TR><TD BGCOLOR="{header_color}"><FONT FACE="Consolas" POINT-SIZE="11"><B>{name_font}</B></FONT></TD></TR>'
+            if note:
+                rows += f'<TR><TD><FONT FACE="Helvetica,sans-Serif" POINT-SIZE="9" COLOR="#666666">({esc(note)})</FONT></TD></TR>'
+            lines.append(f'{e} [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="3">{rows}</TABLE>>];')
+        lines.append('}')
+
+    for a, b in edge_subset:
+        if a not in entity_subset or b not in entity_subset:
+            continue
+        style = ' [style=dashed]' if a == b else ''
+        lines.append(f'{a} -> {b}{style} [color="#666666", arrowhead=none, arrowtail=none];')
+
+    lines.append('}')
+    return "\n".join(lines)
+
+
+def render_overview(name, entity_subset, edge_subset, title):
+    dot_src = build_overview_dot(title, entity_subset, edge_subset)
+    dot_path = os.path.join(SCRIPT_DIR, f"{name}.dot")
+    open(dot_path, "w", encoding="utf-8").write(dot_src)
+    svg_path = os.path.join(ERD_DIR, f"{name}.svg")
+    subprocess.run(["dot", "-Tsvg", dot_path, "-o", svg_path], check=True)
+    print("rendered", svg_path)
+
+
 ALL_ENTITIES = list(entities.keys())
 
 render("ERD", ALL_ENTITIES, edges, "SƠ ĐỒ ERD CHI TIẾT - HỆ THỐNG QUẢN LÝ TRÁCH NHIỆM GIẢI TRÌNH (TNGT)")
@@ -342,10 +454,10 @@ DOMAIN_FILE = {
     "VANBAN": ("ERD_02_van_ban_cong_khai", "VĂN BẢN GIẢI TRÌNH & CÔNG KHAI (đã bổ sung loại văn bản & thay thế)"),
     "PHKN": ("ERD_03_phan_hoi_khieu_nai", "PHẢN HỒI & KHIẾU NẠI"),
     "DANHGIA": ("ERD_04_danh_gia_tngt", "ĐÁNH GIÁ THỰC HIỆN TNGT (đã bổ sung phiếu đánh giá 2 chiều)"),
-    "GIAMSAT": ("ERD_05_giam_sat_giao_viec_bao_cao", "GIÁM SÁT, GIAO VIỆC & BÁO CÁO"),
+    "GIAMSAT": ("ERD_05_giam_sat_giao_viec_bao_cao", "GIÁM SÁT, GIAO VIỆC & BÁO CÁO (đã bổ sung văn bản đôn đốc)"),
     "LUUTRU": ("ERD_06_so_van_ban_luu_tru", "SỔ VĂN BẢN & LƯU TRỮ (đã bổ sung kỳ số hoá)"),
     "DUNGCHUNG": ("ERD_07_dung_chung", "BẢNG DÙNG CHUNG (POLYMORPHIC) - đã bổ sung nhật ký hệ thống"),
-    "QUANTRI": ("ERD_08_quan_tri", "QUẢN TRỊ HỆ THỐNG - đã bổ sung chứng thư số & thiết bị ký số"),
+    "QUANTRI": ("ERD_08_quan_tri", "QUẢN TRỊ HỆ THỐNG - đã bổ sung chứng thư số, thiết bị ký số & cấu hình dashboard"),
 }
 
 for cname, (fname, title) in DOMAIN_FILE.items():
@@ -364,5 +476,12 @@ for cname, (fname, title) in DOMAIN_FILE.items():
                 neighbors.add(a)
         entity_subset = core | neighbors
     render(fname, sorted(entity_subset), edges, title, with_clusters=False)
+
+render_overview(
+    "ERD_00_TongQuan",
+    ALL_ENTITIES,
+    edges,
+    "SƠ ĐỒ QUAN HỆ TỔNG THỂ - HỆ THỐNG QUẢN LÝ TRÁCH NHIỆM GIẢI TRÌNH (TNGT)",
+)
 
 print("DONE")
